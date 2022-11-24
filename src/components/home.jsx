@@ -39,7 +39,7 @@ function Home() {
       <header className="App-header">
         <h1 class = "title">RentSimple</h1>
         <a class="link-button" href="/about">About</a>
-        <a class="link-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeV5wToosjrxzQ258yIgjARdefV9B4TCmH0nxXWqrp7daRJ3g/viewform?usp=sf_link">Feedback</a>
+        <a class="link-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeV5wToosjrxzQ258yIgjARdefV9B4TCmH0nxXWqrp7daRJ3g/viewform?usp=sf_link" target="_blank" rel="noreferrer">Feedback</a>
 
         
 
