@@ -56,29 +56,27 @@ class Create extends Component {
   render() {
     return (
       <div>
-
         <header className="App-header">
-            <h1 class = "title">About</h1>
-            <a class="link-button" href="/">Home</a>
-            <a class="link-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeV5wToosjrxzQ258yIgjARdefV9B4TCmH0nxXWqrp7daRJ3g/viewform?usp=sf_link">Feedback</a>
+            <h1 className= "title">About</h1>
+            <a className="link-button" href="/">Home</a>
+            <a className="link-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeV5wToosjrxzQ258yIgjARdefV9B4TCmH0nxXWqrp7daRJ3g/viewform?usp=sf_link">Feedback</a>
 
-            <h3 class="title">A work in progress.</h3>
-            <div class ="about-text">
-            <p class="title">You are likely all aware that the current student rental housing market is very competitive at the moment. Since securing a lease is mainly first come first serve I built this small app to help me keep track of new postings accross a few of the main websites such as craigslist, used victoria and facebook. I found it helpful in my search and thought it could be useful to other students. I will be adding features quite regularily any feedback is appreciated.</p>
+            <h3 className="title">A work in progress.</h3>
+            <div className="about-text">
+            <p className="title">You are likely all aware that the current student rental housing market is very competitive at the moment. Since securing a lease is mainly first come first serve I built this small app to help me keep track of new postings accross a few of the main websites such as craigslist, used victoria and facebook. I found it helpful in my search and thought it could be useful to other students. I will be adding features quite regularily any feedback is appreciated.</p>
             <br />
-            <p class="title">If you would like personalized email notifications please write your information down here.</p>
+            <p className="title">If you would like personalized email notifications please write your information down here.</p>
             
             </div>
         </header>
-        <body class ="about-body">
+        <div className="about-body">
                 <br />
                 <div className="container">
                 <form onSubmit={this.handleSubmit} >
                     <div style={{ width: '30%' }} className="form-group">
                     <input
                         type="text"
-                        className="form-control"
-                        class="form-input"
+                        className="form-input"
                         name="name"
                         placeholder="Name"
                         onChange={this.handleInputChange}
@@ -88,8 +86,7 @@ class Create extends Component {
                     <div style={{ width: '30%' }} className="form-group">
                     <input
                         type="text"
-                        className="form-control"
-                        class="form-input"
+                        className="form-input"
                         name="email"
                         placeholder="Email"
                         onChange={this.handleInputChange}
@@ -99,8 +96,7 @@ class Create extends Component {
                     <div style={{ width: '30%' }} className="form-group">
                     <input
                         type="number"
-                        className="form-control"
-                        class="form-input"
+                        className="form-input"
                         name="bedrooms"
                         placeholder="Bedrooms"
                         onChange={this.handleInputChange}
@@ -110,8 +106,7 @@ class Create extends Component {
                     <div style={{ width: '30%' }} className="form-group">
                     <input
                         type="text"
-                        className="form-control"
-                        class="form-input"
+                        className="form-input"
                         name="location"
                         placeholder="Location"
                         onChange={this.handleInputChange}
@@ -121,8 +116,7 @@ class Create extends Component {
                     <div style={{ width: '30%' }} className="form-group">
                     <input
                         type="number"
-                        className="form-control"
-                        class = "form-input"
+                        className="form-input"
                         name="budget"
                         placeholder="Budget"
                         onChange={this.handleInputChange}
@@ -130,13 +124,13 @@ class Create extends Component {
                     </div>
                     <br />
                     <div style={{ width: '30%' }}>
-                    <button className="btn btn-success" class="form-submit"type="submit">
+                    <button className="btn btn-success form-submit" type="submit">
                         Submit
                     </button>
                     </div>
                 </form> 
             </div>
-        </body>
+        </div>
             
     </div>
     );
@@ -165,12 +159,12 @@ export default Create;
 //     <div className="App">
     //   <header className="App-header">
     //     <h1 class = "title">About</h1>
-    //     <a class="link-button" href="/">Home</a>
-    //     <a class="link-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfWs142mW_jU5E9g73TcCKAiJfX1nPgQNIELfl-pdNMCzbpzg/viewform?usp=sf_link">Feedback</a>
+    //     <a className="link-button" href="/">Home</a>
+    //     <a className="link-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfWs142mW_jU5E9g73TcCKAiJfX1nPgQNIELfl-pdNMCzbpzg/viewform?usp=sf_link">Feedback</a>
 
-    //     <h3 class="title">A work in progress.</h3>
+    //     <h3 className="title">A work in progress.</h3>
     //     <div class ="about-text">
-    //     <p class="title">You are likely all aware that the current student rental housing market is very competitive at the moment. Since securing a lease is mainly first come first serve I built this small app to help me keep track of new postings accross a few of the main websites such as craigslist, used victoria and facebook. I found it helpful in my search and thought it could be useful to other students. I will be adding features quite regularily any feedback is appreciated.</p>
+    //     <p className="title">You are likely all aware that the current student rental housing market is very competitive at the moment. Since securing a lease is mainly first come first serve I built this small app to help me keep track of new postings accross a few of the main websites such as craigslist, used victoria and facebook. I found it helpful in my search and thought it could be useful to other students. I will be adding features quite regularily any feedback is appreciated.</p>
     //     </div>
     //   </header>
     //   <body class = "App-body">
