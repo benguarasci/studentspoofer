@@ -15,9 +15,6 @@ function SearchLocation(bedrooms){
       .then((res) => res.json())
       .then((listings) => setData(listings));
   }, []);
-
-
-
 }
 
 
@@ -40,24 +37,19 @@ function Home() {
         <h1 class = "title">RentSimple</h1>
         <a class="link-button" href="/about">About</a>
         <a class="link-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeV5wToosjrxzQ258yIgjARdefV9B4TCmH0nxXWqrp7daRJ3g/viewform?usp=sf_link" target="_blank" rel="noreferrer">Feedback</a>
-
-        
-
       </header>
       <body class = "App-body">
         {!listings ? "Loading..." : listings.map((listing, index) => (
 
             <a class="listing-card listing-link" key={index} href={listing.link}>
-                
                 <h3 class="listing-attribute">{listing.title}</h3>
-                <img class="listing-image" src={listing.picture_url}></img>
+                <img class="listing-image" alt={listing.title} src={listing.picture_url}></img>
                 <h5 class="listing-attribute">{listing.posted}</h5>
                 <h5 class="listing-attribute">Price: ${listing.price}</h5>
                 <h5 class="listing-attribute">Bedrooms: {listing.bedrooms}</h5>
                 <h5 class="listing-attribute">Size: {listing.size} sqft</h5>
                 <h5 class="listing-attribute">Location: {listing.city}</h5>
                 <h5 class="listing-attribute">Source: {listing.source}</h5>
-                
             </a>
             
         ))}

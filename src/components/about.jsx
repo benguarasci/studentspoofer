@@ -44,7 +44,7 @@ class Create extends Component {
 
     console.log(user)
 
-  axios.post('http://rentsimple-working.herokuapp.com/add_user', user)
+  axios.post('http://3.218.175.231:8000/subscribers/add/', user)
       .then(() => console.log('User info gathered'))
       .catch(err => {
         console.error(err);

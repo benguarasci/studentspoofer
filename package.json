@@ -15,7 +15,7 @@
     "react-ga": "^3.3.0",
     "react-router-dom": "^5.2.0"
   },
-  "proxy": "http://localhost:8000",
+  "proxy": "http://3.218.175.231:8000",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
