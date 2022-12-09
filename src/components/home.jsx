@@ -18,11 +18,9 @@ function Home() {
 
   React.useEffect(() => {
     fetch("/listings/")
-      .then((res) => res.json())
-      .catch((err) => {
-        console.error(err);
-      })
-      .then((listings) => setData(listings));
+      .then((res) => console.log(res))
+      .then((listings) => setData(listings))
+      .then((data) => console.log(data));
   }, []);
 
   return (
