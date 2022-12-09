@@ -20,7 +20,7 @@ function Home() {
     fetch("/listings/")
       .then((res) => res.json())
       // .then((listings) => setData(listings))
-      .then((data) => console.log(data));
+      .then((data) => console.log("DATA: ", data));
   }, []);
 
   return (
