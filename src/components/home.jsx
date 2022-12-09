@@ -17,11 +17,11 @@ function Home() {
   const [listings, setData] = React.useState(null);
 
   React.useEffect(() => {
+    console.log("IN USE EFFECT")
     fetch("/listings/")
       .then((res) => res.json())
-      // .then((listings) => setData(listings))
       .then((data) => console.log("DATA: ", data));
-  }, []);
+  }, [listings]);
 
   return (
     <div className="App">
