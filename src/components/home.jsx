@@ -18,8 +18,8 @@ function Home() {
 
   React.useEffect(() => {
     fetch("/listings/")
-      .then((res) => console.log(res))
-      .then((listings) => setData(listings))
+      .then((res) => res.json())
+      // .then((listings) => setData(listings))
       .then((data) => console.log(data));
   }, []);
 
