@@ -140,9 +140,10 @@
     width: 70%;
     border-radius: 20px;
     display: inline-block;
-    padding: 32px;
+    padding: 8px 32px;
     backdrop-filter: blur(10px);
     transition: all .2s ease-in-out;
+    height: 475px;
     }
 
     .listing-card:hover{
@@ -156,8 +157,8 @@
     }
 
     .listing-image{
-        max-width: 40%;
-        max-height: 30%;
+        max-width: 90%;
+        max-height: 40%;
         border-radius: 20px;
     }
 
@@ -166,9 +167,12 @@
     }
 
 
-
+    .listing-title {
+      font-size: 24px;
+    }
     .listing-attribute{
-        margin: 1%
+        margin: 1%;
+        font-size: 14px;
     }
   
   .App-body {
@@ -188,7 +192,6 @@
     background-color: #282c34;
     font-size: calc(10px + 2vmin);
     color: white;
-    
   }
   
   .App-link {
