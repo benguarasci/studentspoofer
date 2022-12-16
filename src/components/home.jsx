@@ -90,10 +90,13 @@ function Home() {
           rowSpacing={2}
           columnSpacing={1}
           alignItems="stretch"
-          sx={{ mt: 4, ml: 1, mr: 1, margin: 0 }}
+          sx={{  ml: 1, mr: 1, margin: 0 }}
+          justifyContent="center"
         >
           {!listings
-            ? "Loading..."
+            ? <Grid xs={8} marginTop="-150px">
+              Loading...
+              </Grid>
             : listings.map((listing, index) => (
                 <Grid xs={12} sm={6} md={4} lg={3}>
                     <a
