@@ -20,7 +20,7 @@ function Home() {
   const [listings, setData] = React.useState(null);
 
   React.useEffect(() => {
-    fetch("/listings/")
+    fetch("https://api.rentapply.ca/listings/")
       .then((res) => res.json())
       .then((listings) => setData(listings));
   }, []);
