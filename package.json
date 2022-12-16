@@ -15,7 +15,7 @@
     "react-ga": "^3.3.0",
     "react-router-dom": "^5.2.0"
   },
-  "proxy": "http://localhost:8000",
+  "proxy": "https://api.rentapply.ca",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
