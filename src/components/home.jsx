@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 import "./base.css";
+import Nav from "./nav.jsx";
 
 
 function SearchLocation(bedrooms) {
@@ -71,7 +72,7 @@ function Home() {
 
     <Box className="App">
       <Box className="App-header">
-        <h1 className="title">RentSimple</h1>
+        {/* <h1 className="title">RentSimple</h1>
         <a className="link-button" href="/about">
           About
         </a>
@@ -82,8 +83,20 @@ function Home() {
           rel="noreferrer"
         >
           Feedback
-        </a>
+        </a> */}
+    
+    <div className="nav" id="nav">
+    <h2 className="desktop-header">RentSimple</h2>
+    <h2 className="mobile-header">RentSimple</h2>
+    <ul className = "navbar">
+        <a className='nav-item' href="/subscribe" id="nav">Subscribe</a>
+        <a className='nav-item' href="#projects" id="nav">About</a>
+        <a className='nav-item' href="https://docs.google.com/forms/d/e/1FAIpQLSeV5wToosjrxzQ258yIgjARdefV9B4TCmH0nxXWqrp7daRJ3g/viewform?usp=sf_link" id="nav">Feedback</a>
+    </ul>
+    </div>
       </Box>
+      <br/>
+      <br/>
       <Box className="App-body">
         <Grid
           container
@@ -104,12 +117,13 @@ function Home() {
                       key={index}
                       href={listing.link}
                     >
-                      <h3 className="listing-title">{listing.title}</h3>
+                      
                       <img
                         className="listing-image"
                         alt={listing.title}
                         src={listing.picture_url}
                       ></img>
+                      <h3 className="listing-title">{listing.title}</h3>
                       <p className="listing-attribute">{listing.posted}</p>
                       <p className="listing-attribute">
                         Price: ${listing.price}

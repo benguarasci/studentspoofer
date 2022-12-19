@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { About, Footer, Home } from "./components";
+import { About, Footer, Home, Subscribe } from "./components";
 import ReactGA from "react-ga";
 
 function App() {
@@ -20,6 +20,7 @@ useEffect(() =>{
       <Router>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/about" exact component={() => <About />} />
+          <Route path="/subscribe" exact component={() => <Subscribe />} />
 
       </Router>
     </div>
