@@ -53,7 +53,7 @@ class Create extends Component {
       },
     }
 
-    fetch("https://rentapply.ca/subscribers/add/", requestOptions)
+    fetch("https://api.rentapply.ca/subscribers/add/", requestOptions)
     .then((response) => response.json())
     .then((data) => console.log(data))
     .then(() => {
