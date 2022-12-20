@@ -308,6 +308,10 @@
       display: none;
     }
 
+    .form-submit{
+      width: 50%;
+    }
+
     .form-container{
       width: 80%;
     }
