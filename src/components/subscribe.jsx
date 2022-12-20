@@ -137,12 +137,9 @@ class Create extends Component {
                     <button className="btn btn-success form-submit" type="submit">
                         Submit
                     </button>
-                    
                 </form> 
             </div>
-
         </div>
-            
     </div>
     );
   }

@@ -86,8 +86,8 @@ function Home() {
         </a> */}
     
     <div className="nav" id="nav">
-    <h2 className="desktop-header">RentSimple</h2>
-    <h2 className="mobile-header">RentSimple</h2>
+    <a className="desktop-header" href="/">RentSimple</a>
+    <a className="mobile-header" href="/">RentSimple</a>
     <ul className = "navbar">
         <a className='nav-item' href="/subscribe" id="nav">Subscribe</a>
         <a className='nav-item' href="/about" id="nav">About</a>

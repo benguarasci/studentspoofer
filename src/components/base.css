@@ -46,7 +46,7 @@
   .about-body{
     /* background-color: #282c34; */
     background-color: white;
-    min-height: 100vh;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,6 +106,8 @@
     text-decoration: none;
   }
 
+    /* End nav styling */
+
 
   .button{
     background-color: rgba(255,255,255,0.4);
@@ -143,7 +145,7 @@
   }
   
   .form-container{
-    width:50%;
+    width:30%;
     /* z-index: 10000; */
   }
 
@@ -210,12 +212,9 @@
 
   .listing-card {
     color: #fff;
-    margin: 20px auto;
     background: white;
-    width: 70%;
-    border-radius: 20px;
+    padding: 40px;
     display: inline-block;
-    padding: 8px 32px;
     backdrop-filter: blur(10px);
     transition: all .2s ease-in-out;
     }
@@ -226,8 +225,7 @@
 
     .listing-link{
         color: white;
-        text-decoration: none;
-        
+        text-decoration: none;        
     }
 
     .listing-image{
@@ -247,10 +245,12 @@
       text-align: left;
       margin: 5 0 5 0;
       color: black;
+      max-width: 285px;
     }
     .listing-attribute{
         margin: 1%;
         font-size: 14px;
+        max-width: 285px;
         text-align: left;
         color: black;
     }
@@ -298,6 +298,13 @@
         
       margin:0;
       margin-left: 15px;
+    }
+
+    .listing-card{
+      border-top: 1px solid rgba(128, 127, 127, 0.459);
+    }
+    .listing-card:hover{
+      transform: scale(1.0);
     }
 
     .mobile-header{
