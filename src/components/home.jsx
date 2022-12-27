@@ -91,7 +91,6 @@ function Home() {
     <ul className = "navbar">
         <a className='nav-item' href="/subscribe" id="nav">Subscribe</a>
         <a className='nav-item' href="/about" id="nav">About</a>
-        <a className='nav-item' href="https://docs.google.com/forms/d/e/1FAIpQLSeV5wToosjrxzQ258yIgjARdefV9B4TCmH0nxXWqrp7daRJ3g/viewform?usp=sf_link" id="nav">Feedback</a>
     </ul>
     </div>
       </Box>
