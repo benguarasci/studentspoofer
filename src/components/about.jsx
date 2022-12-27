@@ -20,11 +20,10 @@ class About extends Component {
             <br/>
             <h3 className="title">Built for tenents.</h3>
             <div className="about-text">
-            
-            <p className="title">Rentsimple was designed to be an intuitive tool to help all users find a new rental home.</p>
-            <p className='title'>In the summer of 2021, we were desperately looking for housing in the </p>
             <p className='title'>RentSimple consolodates and provides filtering options on postings from all common platforms such as craigslist and facebook marketplace. This allows users to see all relevent rental listings from one website instead of having to check many different sites daily.</p>
+            <p className="title">In the summer of 2021, we were desperately looking for rental housing in a very competitive  market that had less than 5% vacancy. We soon discovered that if we didnt respond immediately to new postings we would seldomly recieve a response from the property manager. This experience was very stressful and the search required us to be constantly on our laptops so we could quickly apply to anything that fit our budget. We built this application simply as a tool for ourselves to save time and stress during our rental search. Within a week of using it we ended up securing an amazing appartement. </p>   
             <p className='title'>This is a work in progress and will be recieving frequent updates based on user feedback. If you have any thoughts please fill out the form below. We appreciate any thoughts you might have.</p>
+            {/* <p className='title'>- Ben Guarasci & Jack Campbell</p> */}
             </div>
             <div className='feedback-div'>
             <a className='feedback'  href='https://docs.google.com/forms/d/e/1FAIpQLSeV5wToosjrxzQ258yIgjARdefV9B4TCmH0nxXWqrp7daRJ3g/viewform?usp=sf_link'>Feedback</a>
