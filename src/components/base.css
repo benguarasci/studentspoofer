@@ -41,8 +41,8 @@
   .about-text{
     width: 70%;
     margin: auto;
-    text-align: center;
-    height: 80%;  }
+    text-align: left;
+    }
 
   .subscribe-text{
     width: 70%;
@@ -291,10 +291,17 @@
     font-size:24px;
     width: 30%;
     transition: all 0.2s;
+    align-self: right;
   }
 
   .feedback:hover { 
     background:rgba(10, 132, 255, 1)
+  }
+
+  .feedback-div{
+    height: 10%;
+    margin: 20px;
+    /* text-align: right; */
   }
   
   .App-body {

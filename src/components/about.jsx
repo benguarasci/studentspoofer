@@ -25,9 +25,9 @@ class About extends Component {
             <p className='title'>In the summer of 2021, we were desperately looking for housing in the </p>
             <p className='title'>RentSimple consolodates and provides filtering options on postings from all common platforms such as craigslist and facebook marketplace. This allows users to see all relevent rental listings from one website instead of having to check many different sites daily.</p>
             <p className='title'>This is a work in progress and will be recieving frequent updates based on user feedback. If you have any thoughts please fill out the form below. We appreciate any thoughts you might have.</p>
-            <br/>
+            </div>
+            <div className='feedback-div'>
             <a className='feedback'  href='https://docs.google.com/forms/d/e/1FAIpQLSeV5wToosjrxzQ258yIgjARdefV9B4TCmH0nxXWqrp7daRJ3g/viewform?usp=sf_link'>Feedback</a>
-            <br/>
             </div>
             </header>
         );
