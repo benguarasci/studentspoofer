@@ -1,23 +1,32 @@
-import React from "react";
+import React, { useRef, useState } from 'react';
+
 import { Box, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 import "./base.css";
+import Filters from "./modals/filters.jsx"
 import Nav from "./nav.jsx";
 
+function preventScroll(e){
+  e.preventDefault();
+  e.stopPropagation();
 
-function SearchLocation(bedrooms) {
-  const [listings, setData] = React.useState(null);
-
-  const text = "/get_listings" + bedrooms;
-
-  React.useEffect(() => {
-    fetch(text)
-      .then((res) => res.json())
-      .then((listings) => setData(listings));
-  }, []);
+  return false;
 }
 
+function disable_scroll(){
+  document.querySelector('.App').addEventListener('wheel', preventScroll);
+}
+
+function enable_scroll(){
+    document.querySelector('.App').removeEventListener('wheel', preventScroll);
+}
+
+
+
 function Home() {
+
+  const [openFilters, setOpenFilters] = useState(false)
+
   const [listings, setData] = React.useState(null);
 
   React.useEffect(() => {
@@ -89,6 +98,7 @@ function Home() {
     <a className="desktop-header" href="/">RentSimple</a>
     <a className="mobile-header" href="/">RentSimple</a>
     <ul className = "navbar">
+        <a onClick={() => {setOpenFilters(true); disable_scroll();}} className="nav-item">Filter</a>
         <a className='nav-item' href="/subscribe" id="nav">Subscribe</a>
         <a className='nav-item' href="/about" id="nav">About</a>
     </ul>
@@ -105,6 +115,7 @@ function Home() {
           sx={{  ml: 1, mr: 1, margin: 0 }}
           justifyContent="center"
         >
+          <Filters open={openFilters} onClose={() => {setOpenFilters(false); enable_scroll()}} />
           {!listings
             ? <Grid xs={8} marginTop="-150px">
               Loading...

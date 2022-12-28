@@ -85,6 +85,7 @@
     text-decoration: none;
     transition: 200ms;
     font-size: 15px;
+    cursor: pointer;
   }
   .nav-item:hover{
     color: grey;
