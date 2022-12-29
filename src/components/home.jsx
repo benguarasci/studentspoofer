@@ -98,9 +98,9 @@ function Home() {
     <a className="desktop-header" href="/">RentSimple</a>
     <a className="mobile-header" href="/">RentSimple</a>
     <ul className = "navbar">
-        <a onClick={() => {setOpenFilters(true); disable_scroll();}} className="nav-item">Filter</a>
         <a className='nav-item' href="/subscribe" id="nav">Subscribe</a>
         <a className='nav-item' href="/about" id="nav">About</a>
+        <a onClick={() => {setOpenFilters(true); disable_scroll();}} className="filter-button">Filters</a>
     </ul>
     </div>
       </Box>
