@@ -38,7 +38,7 @@
   .about-text{
     width: 70%;
     margin: auto;
-    text-align: left;
+    text-align: center;
     }
 
   .subscribe-text{
@@ -317,8 +317,9 @@
 
   .feedback{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    background:rgba(0, 122, 255, 1);
-    border-radius:10px;
+    background:rgb(255, 0, 0);
+    font-style: italic;
+    /* border-radius:10px; */
     cursor:pointer;
     color:white;
     text-decoration: none;
@@ -332,7 +333,7 @@
   }
 
   .feedback:hover { 
-    background:rgba(10, 132, 255, 1)
+    background:rgba(255, 10, 10, 0.664)
   }
 
   .feedback-div{
