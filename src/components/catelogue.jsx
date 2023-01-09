@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { Box, Grid } from "@mui/material";
 import "./base.css";
-import { DunkCard, GooseCard, EssentialsCard } from './cards';
+import { DunkCard, GooseCard, EssentialsCard, EE, StoneyCard, CommonProjectsCard } from './cards';
 
 class Catelogue extends Component {
 
@@ -24,11 +24,14 @@ class Catelogue extends Component {
                 columnSpacing={1}
                 alignItems="stretch"
                 sx={{  ml: 1, mr: 1, margin: 0 }}
-                justifyContent="center"
+                justifyContent="left"
               >
+                  <StoneyCard></StoneyCard>
                   <DunkCard></DunkCard>
                   <GooseCard></GooseCard>
                   <EssentialsCard></EssentialsCard>
+                  <EE></EE>
+                  <CommonProjectsCard></CommonProjectsCard>
                   
 
               </Grid>

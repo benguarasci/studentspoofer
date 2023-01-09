@@ -15,19 +15,19 @@ class Goose extends Component {
             <div className="product-text">
             <h1 className='title'>[02] Canada Goose Vest</h1>
             <h2 className='price'>$100</h2>
-            <p className='title'>Can get pretty much any colourway but here are a few that we have been verified.</p>   
+            <p className='title'>Basically legit. Size up</p>   
             <p className='title'>Colors:</p>
             <img className='product-image' src='https://cbu01.alicdn.com/img/ibank/O1CN01A5NCWo1irTacN0vjm_!!2206590174466-0-cib.jpg'></img>
-            <p className='title'>[1001] | Black</p>
+            <p className='title'>[0201] | Black</p>
             <img className='product-image' src='https://cbu01.alicdn.com/img/ibank/O1CN01FaR4511irTXTfpqEE_!!2206590174466-0-cib.jpg'></img>
-            <p className='title'>[1002] | White</p>
+            <p className='title'>[0202] | White</p>
             <img className='product-image' src='https://cbu01.alicdn.com/img/ibank/O1CN01cWnD2f1irTbuHRKqu_!!2206590174466-0-cib.jpg'></img>
-            <p className='title'>[1001] | Grey (red label)</p>
-            <p className='title'>[1001] | Grey (black label)</p>
+            <p className='title'>[0203] | Grey (red label)</p>
+            <p className='title'>[0204] | Grey (black label)</p>
             <img className='product-image' src='https://cbu01.alicdn.com/img/ibank/O1CN01JhSaUn1irTXTfrzK3_!!2206590174466-0-cib.jpg'></img>
-            <p className='title'>[1004] | Navy Blue</p>
+            <p className='title'>[0205] | Navy Blue</p>
             <img className='product-image' src='https://cbu01.alicdn.com/img/ibank/O1CN016HD2aB1irTbM1njv5_!!2206590174466-0-cib.jpg'></img>
-            <p className='title'>[1005] | Blue</p>
+            <p className='title'>[0206] | Blue</p>
 
             {/* <p className='title'>[1010] | Lemon</p> */}
             {/* <p className='title'>[1011] | Turbo Blue</p> */}

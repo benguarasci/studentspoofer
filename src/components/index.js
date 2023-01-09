@@ -4,3 +4,6 @@ export { default as ProductCard } from "./cards/dunkCard";
 export { default as Dunks } from "./dunks";
 export { default as Goose } from "./goose";
 export { default as Essentials } from "./essentials";
+export { default as EE } from "./EEshorts";
+export { default as Topstoney } from "./topstoney";
+export { default as CommonProjects } from "./commonproject";

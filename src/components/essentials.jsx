@@ -15,7 +15,7 @@ class Essentials extends Component {
             <div className="product-text">
             <h1 className='title'>[03] Essentials FOG Hoodie</h1>
             <h2 className='price'>$50</h2>
-            <p className='title'>Can get pretty much any colourway but here are a few that we have been verified.</p>   
+            <p className='title'>Good quality. True to size</p>   
             <p className='title'>Colors:</p>
             
             <img className='product-image' src='https://img.alicdn.com/imgextra/i2/1090806015/O1CN01aPuxbq1uIv5B3jEK3_!!1090806015.jpg'></img>
@@ -33,11 +33,6 @@ class Essentials extends Component {
             <img className='product-image' src='https://img.alicdn.com/imgextra/i2/1090806015/O1CN01Wue1NC1uIv5BymkJ2_!!1090806015.jpg'></img>
             <p className='title'>[0305] | Beige</p>
 
-      
-
-            {/* <p className='title'>[1010] | Lemon</p> */}
-            {/* <p className='title'>[1011] | Turbo Blue</p> */}
-            {/* <p className='title'>[1012] | Brown Red Hook SB</p> */}
             </div>
             </div>
             </header>
