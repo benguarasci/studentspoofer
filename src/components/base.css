@@ -272,7 +272,7 @@
         object-fit: cover;
         width: 285px;
         height: 285px;
-        border-radius: 10px;
+        /* border-radius: 10px; */
     }
 
     .listing-link:visited{
