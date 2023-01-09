@@ -1,184 +1,29 @@
-import React, { useRef, useState } from 'react';
 
-import { Box, Grid } from "@mui/material";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
 import "./base.css";
-import Filters from "./modals/filters.jsx"
-import Nav from "./nav.jsx";
 
-function preventScroll(e){
-  e.preventDefault();
-  e.stopPropagation();
+class Home extends Component {
 
-  return false;
-}
+    render() {
+        return (
+        
+            <header className="App-header">
+            <br></br>
+            <br></br>
+            <a className="desktop-header" href="/">"F & G Reps"</a>
+            <a className="mobile-header" href="/">"F & G Reps"</a>
+            <div className="about-text">
+            <p className='title'>RentSimple consolidates and provides filtering options on postings from all common platforms such as craigslist and Facebook marketplace. This allows users to see all relevant rental listings from one website instead of having to check many different sites daily.</p>
+            <p className="title">In the summer of 2021, we were desperately looking for rental housing in a very competitive  market that had less than 5% vacancy. We soon discovered that if we didnt respond immediately to new postings, we would seldomly receive a response from the property manager. This experience was very stressful and the search required us to be constantly on our laptops so we could quickly apply to anything that fit our budget. We built this application simply as a tool for ourselves to save time and stress during our rental search. Within a week of using it, we ended up securing an amazing apartment. </p>   
+            <p className='title'>This is a work in progress and will be receiving frequent updates based on user feedback. If you have any thoughts, please fill out the form below. We appreciate any thoughts you might have.</p>
 
-function disable_scroll(){
-  document.querySelector('.App').addEventListener('wheel', preventScroll);
-}
-
-function enable_scroll(){
-    document.querySelector('.App').removeEventListener('wheel', preventScroll);
-}
-
-
-
-function Home() {
-
-  const [openFilters, setOpenFilters] = useState(false)
-
-  const [listings, setData] = React.useState(null);
-
-  React.useEffect(() => {
-    fetch("https://api.rentapply.ca/listings/")
-      .then((res) => res.json())
-      .then((listings) => setData(listings));
-  }, []);
-
-  return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <h1 className="title">RentSimple</h1>
-    // <a className="link-button" href="/about">
-    //   About
-    // </a>
-    // <a
-    //   className="link-button"
-    //   href="https://docs.google.com/forms/d/e/1FAIpQLSeV5wToosjrxzQ258yIgjARdefV9B4TCmH0nxXWqrp7daRJ3g/viewform?usp=sf_link"
-    //   target="_blank"
-    //   rel="noreferrer"
-    // >
-    //   Feedback
-    // </a>
-    //   </header>
-    //   <div className="App-body">
-    //     {!listings
-    //       ? "Loading..."
-    //       : listings.map((listing, index) => (
-    //           <a
-    //             className="listing-card listing-link"
-    //             key={index}
-    //             href={listing.link}
-    //           >
-    //             <h3 className="listing-attribute">{listing.title}</h3>
-    //             <img
-    //               className="listing-image"
-    //               alt={listing.title}
-    //               src={listing.picture_url}
-    //             ></img>
-    //             <h5 className="listing-attribute">{listing.posted}</h5>
-    //             <h5 className="listing-attribute">Price: ${listing.price}</h5>
-    //             <h5 className="listing-attribute">
-    //               Bedrooms: {listing.bedrooms}
-    //             </h5>
-    //             <h5 className="listing-attribute">Size: {listing.size} sqft</h5>
-    //             <h5 className="listing-attribute">Location: {listing.city}</h5>
-    //             <h5 className="listing-attribute">Source: {listing.source}</h5>
-    //           </a>
-    //         ))}
-    //   </div>
-    // </div>
-
-    <Box className="App">
-      <Box className="App-header">
-        {/* <h1 className="title">RentSimple</h1>
-        <a className="link-button" href="/about">
-          About
-        </a>
-        <a
-          className="link-button"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeV5wToosjrxzQ258yIgjARdefV9B4TCmH0nxXWqrp7daRJ3g/viewform?usp=sf_link"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Feedback
-        </a> */}
-    
-    <div className="nav" id="nav">
-    <a className="desktop-header" href="/">RentSimple</a>
-    <a className="mobile-header" href="/">RentSimple</a>
-    <ul className = "navbar">
-        <a className='nav-item' href="/subscribe" id="nav">Subscribe</a>
-        <a className='nav-item' href="/about" id="nav">About</a>
-        <a onClick={() => {setOpenFilters(true); disable_scroll();}} className="filter-button">Filters</a>
-    </ul>
-    </div>
-      </Box>
-      <br/>
-      <br/>
-      <Box className="App-body">
-        <Grid
-          container
-          rowSpacing={2}
-          columnSpacing={1}
-          alignItems="stretch"
-          sx={{  ml: 1, mr: 1, margin: 0 }}
-          justifyContent="center"
-        >
-          <Filters open={openFilters} onClose={() => {setOpenFilters(false); enable_scroll()}} />
-          {!listings
-            ? <Grid xs={8} marginTop="-150px">
-              Loading...
-              </Grid>
-            : listings.map((listing, index) => (
-                <Grid xs={12} sm={6} md={4} lg={3}>
-                    <a
-                      className="listing-card listing-link"
-                      key={index}
-                      href={listing.link}
-                    >
-                      
-                      <img
-                        className="listing-image"
-                        alt={listing.title}
-                        src={listing.picture_url}
-                      ></img>
-                      <h3 className="listing-title">{listing.title}</h3>
-                      <p className="listing-attribute">{listing.posted}</p>
-                      <p className="listing-attribute">
-                        Price: ${listing.price}
-                      </p>
-                      <p className="listing-attribute">
-                        Bedrooms: {listing.bedrooms}
-                      </p>
-                      <p className="listing-attribute">
-                        Size: {listing.size} sqft
-                      </p>
-                      <p className="listing-attribute">
-                        Location: {listing.city}
-                      </p>
-                      <p className="listing-attribute">
-                        Source: {listing.source}
-                      </p>
-                    </a>
-                </Grid>
-              ))}
-        </Grid>
-      </Box>
-    </Box>
-  );
+            </div>
+            <div className='feedback-div'>
+            <a className='feedback'  href='/catelogue'>Catelogue</a>
+            </div>
+            </header>
+        );
+    }
 }
 
 export default Home;
-
-// renderTrails = () => {    console.log("TRAILS", this.props.trails.trails)
-// if(this.props.trails.trails){
-// const trail= this.props.trails.trails.map(t => {
-// return(
-// <div className="card" style={{width: 30 + 'rem' }}>
-// <img className="card-img-top" src={t.imgSqSmall ? ( t.imgSqSmall) : ("http://appalachiantrail.org/images/default-source/default-album/trailfocus.jpg?sfvrsn=2")} />
-// <div className="card-body">
-// <h1 className="card-title">{t.name}</h1>
-// <h2 className="card-text">{t.location} </h2>
-// <h4 className="card-text">{t.summary} </h4>
-
-// renderTrails = () => {    console.log("TRAILS", this.props.trails.trails)
-// if(this.props.trails.trails){
-// const trail= this.props.trails.trails.map(t => {
-// return(
-// <div className="card" style={{width: 30 + 'rem' }}>
-// <img className="card-img-top" src={t.imgSqSmall ? ( t.imgSqSmall) : ("http://appalachiantrail.org/images/default-source/default-album/trailfocus.jpg?sfvrsn=2")} />
-// <div className="card-body">
-// <h1 className="card-title">{t.name}</h1>
-// <h2 className="card-text">{t.location} </h2>
-// <h4 className="card-text">{t.summary} </h4>
