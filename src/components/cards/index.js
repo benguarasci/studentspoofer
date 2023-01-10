@@ -5,3 +5,4 @@ export { default as EE } from "./EECard";
 export { default as StoneyCard } from "./topstoneyCard";
 export { default as CommonProjectsCard } from "./commonprojectsCard";
 export { default as ShoesCard } from "./shoesCard";
+export { default as ClothesCard } from "./clothesCard";

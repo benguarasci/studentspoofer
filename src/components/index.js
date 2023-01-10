@@ -8,3 +8,4 @@ export { default as EE } from "./EEshorts";
 export { default as Topstoney } from "./topstoney";
 export { default as CommonProjects } from "./commonproject";
 export { default as Shoes } from "./shoes";
+export { default as Clothes } from "./clothes";
