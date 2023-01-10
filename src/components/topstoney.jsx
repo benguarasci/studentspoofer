@@ -15,7 +15,7 @@ class Topstoney extends Component {
             <div className="product-text">
             <h1 className='title'>TopStoney</h1>
             <p className='title'>Can get anything from this link.</p>   
-            <a href='https://topstoney.x.yupoo.com'>link</a>
+            <a target="_blank" rel="noopener noreferrer" href='https://topstoney.x.yupoo.com'>link</a>
 
             </div>
             </div>

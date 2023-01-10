@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Home, Catelogue, Dunks, Goose, Essentials, EE, Topstoney, CommonProjects} from "./components";
+import { Home, Catelogue, Dunks, Goose, Essentials, EE, Topstoney, CommonProjects, Shoes} from "./components";
 
 function App() {
 
@@ -17,6 +17,7 @@ function App() {
           <Route path="/catelogue/EE" exact component={() => <EE />} />
           <Route path="/catelogue/topstoney" exact component={() => <Topstoney />} />
           <Route path="/catelogue/commonprojects" exact component={() => <CommonProjects />} />
+          <Route path="/catelogue/shoes" exact component={() => <Shoes />} />
 
           
 
