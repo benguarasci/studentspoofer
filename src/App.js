@@ -2,7 +2,8 @@
 
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Home, Catelogue, Dunks, Goose, Essentials, EE, Topstoney, CommonProjects, Shoes} from "./components";
+import { Home, Catelogue, Dunks, Goose, Essentials, EE, Topstoney, CommonProjects, Shoes, Clothes} from "./components";
+
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/catelogue/topstoney" exact component={() => <Topstoney />} />
           <Route path="/catelogue/commonprojects" exact component={() => <CommonProjects />} />
           <Route path="/catelogue/shoes" exact component={() => <Shoes />} />
+          <Route path="/catelogue/clothes" exact component={() => <Clothes />} />
 
           
 
