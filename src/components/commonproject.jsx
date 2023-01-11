@@ -12,6 +12,8 @@ class CommonProjects extends Component {
             <br></br>
             <a className="desktop-header" href="/catelogue">"F & G Reps"</a>
             <a className="mobile-header" href="/catelogue">"F & G Reps"</a>
+            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
+
             <div className='product-container'>
             <img className='product-image' src='https://media.gq.com/photos/57a9edb8251c1fea0b079a1c/master/pass/common-projects-multi-color.jpg'></img>
             <div className="product-text">

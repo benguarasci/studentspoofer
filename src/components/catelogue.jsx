@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { Box, Grid } from "@mui/material";
 import "./base.css";
+import OrderForm from "./assets/orderform.xltx";
 import { DunkCard, GooseCard, EssentialsCard, EE, StoneyCard, CommonProjectsCard, ShoesCard, ClothesCard } from './cards';
 
 class Catelogue extends Component {
@@ -14,6 +15,7 @@ class Catelogue extends Component {
             <br></br>
             <a className="desktop-header" href="/">"F & G Reps"</a>
             <a className="mobile-header" href="/">"F & G Reps"</a>
+            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
             </Box>
             <br/>
             <br/>

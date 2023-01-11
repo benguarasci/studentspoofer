@@ -10,6 +10,8 @@ class Essentials extends Component {
             <br></br>
             <a className="desktop-header" href="/catelogue">"F & G Reps"</a>
             <a className="mobile-header" href="/catelogue">"F & G Reps"</a>
+            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
+
             <div className='product-container'>
             {/* <img className='product-image' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1nT0AnEqXNiW6n0cL8tD_ETu7DgOuto3Ehg&usqp=CAU'></img> */}
             <div className="product-text">

@@ -313,7 +313,13 @@
     margin-top: 100%;
   }
 
-
+  .download{
+    display: block;
+    font-size: medium;
+    width: fit-content;
+    margin:auto;
+    color: black;
+  }
 
   .feedback{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
