@@ -12,6 +12,8 @@ class Home extends Component {
             <br></br>
             <a className="desktop-header" href="/">"F & G Reps"</a>
             <a className="mobile-header" href="/">"F & G Reps"</a>
+            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
+
             <div className="about-text">
             <p className='title'>Disclaimer!! Shits from china so there are no returns.</p>
 

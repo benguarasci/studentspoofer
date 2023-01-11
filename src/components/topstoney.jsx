@@ -10,6 +10,7 @@ class Topstoney extends Component {
             <br></br>
             <a className="desktop-header" href="/catelogue">"F & G Reps"</a>
             <a className="mobile-header" href="/catelogue">"F & G Reps"</a>
+            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
             <div className='product-container'>
             <img className='product-image' src='https://i.pinimg.com/originals/06/86/17/06861769ed32394ed44bbfd07dfc42e1.jpg'></img>
             <div className="product-text">
