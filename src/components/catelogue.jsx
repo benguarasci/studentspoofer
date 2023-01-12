@@ -34,6 +34,7 @@ class Catelogue extends Component {
                   <Cards.AF1Card></Cards.AF1Card>
                   <Cards.TNFCard></Cards.TNFCard>
                   <Cards.CrocsCard></Cards.CrocsCard>
+                  <Cards.NB99XCard></Cards.NB99XCard>
 
                   
 

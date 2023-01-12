@@ -12,5 +12,7 @@ export { default as TNFCard } from "./tnfCard";
 export { default as NB550Card } from "./NB550Card";
 export { default as AF1Card } from "./AF1Card";
 export { default as CrocsCard } from "./CrocsCard";
+export { default as NB99XCard } from "./NB99XCard";
+
 
 

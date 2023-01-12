@@ -26,6 +26,9 @@ function App() {
           <Route path="/catelogue/NB550" exact component={() => <Page.NB550 />} />
           <Route path="/catelogue/AF1" exact component={() => <Page.AF1 />} />
           <Route path="/catelogue/crocs" exact component={() => <Page.Crocs />} />
+          <Route path="/catelogue/NB99X" exact component={() => <Page.NB99X />} />
+
+
 
 
 
