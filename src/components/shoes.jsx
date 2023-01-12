@@ -10,6 +10,8 @@ class Shoes extends Component {
             <br></br>
             <a className="desktop-header" href="/catelogue">"F & G Reps"</a>
             <a className="mobile-header" href="/catelogue">"F & G Reps"</a>
+            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
+
             <div className='product-container'>
             <img className='product-image' src='https://cdn.vox-cdn.com/thumbor/qqY4h3KXIR-wjaurGcKDlNoYpmY=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19913546/13_shoe_organizer_lede.w700.h700.2x.jpg'></img>
             <div className="product-text">

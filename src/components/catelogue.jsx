@@ -14,6 +14,7 @@ class Catelogue extends Component {
             <br></br>
             <a className="desktop-header" href="/">"F & G Reps"</a>
             <a className="mobile-header" href="/">"F & G Reps"</a>
+            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
             </Box>
             <br/>
             <br/>
