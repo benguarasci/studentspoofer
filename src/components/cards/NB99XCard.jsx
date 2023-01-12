@@ -3,26 +3,26 @@ import React, { Component } from 'react';
 import { Box, Grid } from "@mui/material";
 import "../base.css";
 
-class StoneyCard extends Component {
+class NB99XCard extends Component {
 
     render() {
         return (
             <Grid xs={12} sm={6} md={4} lg={3}>
             <a
               className="listing-card listing-link"
-              href={'/catelogue/topstoney'}
+              href={'/catelogue/NB99X'}
             >
               <img
                 className="listing-image"
                 alt={'product'}
-                src={'https://i.pinimg.com/originals/06/86/17/06861769ed32394ed44bbfd07dfc42e1.jpg'}
+                src={'https://media.gq.com/photos/5cae87abbbeea90d15ad94e8/4:3/w_2663,h_1997,c_limit/New-Balance-13806.jpg'}
               ></img>
-              <h3 className="listing-title">Stone Island</h3>
-              {/* <p className="listing-attribute">Price: $120</p> */}
+              <h3 className="listing-title">[12] New Balance 99X Lineup</h3>
+              <p className="listing-attribute">Price: $150</p>
             </a>
         </Grid>
         );
     }
 }
 
-export default StoneyCard;
+export default NB99XCard;

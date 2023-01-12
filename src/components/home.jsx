@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
 import "./base.css";
+import Header from './header';
 
 class Home extends Component {
 
@@ -8,12 +9,7 @@ class Home extends Component {
         return (
         
             <header className="App-header">
-            <br></br>
-            <br></br>
-            <a className="desktop-header" href="/">"F & G Reps"</a>
-            <a className="mobile-header" href="/">"F & G Reps"</a>
-            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
-
+            <Header></Header>
             <div className="about-text">
             <p className='title'>Disclaimer!! Shits from china so there are no returns.</p>
 

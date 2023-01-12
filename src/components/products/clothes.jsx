@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-import "./base.css";
+import "../base.css";
+import Header from '../header';
 
 class Clothes extends Component {
 
     render() {
         return (
             <header className="App-header">
-            <br></br>
-            <br></br>
-            <a className="desktop-header" href="/catelogue">"F & G Reps"</a>
-            <a className="mobile-header" href="/catelogue">"F & G Reps"</a>
-            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
-
+            <Header></Header>
             <div className='product-container'>
             <img className='product-image' src='https://www.newidea.com.au/media/73491/thailand-1997.jpg?width=720&center=0.0,0.0'></img>
             <div className="product-text">

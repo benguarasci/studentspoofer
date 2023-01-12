@@ -1,28 +1,27 @@
-
 import React, { Component } from 'react';
 import { Box, Grid } from "@mui/material";
 import "../base.css";
 
-class StoneyCard extends Component {
+class CrocsCard extends Component {
 
     render() {
         return (
             <Grid xs={12} sm={6} md={4} lg={3}>
             <a
               className="listing-card listing-link"
-              href={'/catelogue/topstoney'}
+              href={'/catelogue/crocs'}
             >
               <img
                 className="listing-image"
                 alt={'product'}
-                src={'https://i.pinimg.com/originals/06/86/17/06861769ed32394ed44bbfd07dfc42e1.jpg'}
+                src={'https://media.endclothing.com/end-features/f_auto,q_auto:eco,w_1520/prodfeatures/e9abef85-97ee-45a9-98a8-2e35a58f57cf_salehe+bembury+Kuwata+Clog+Banner.jpg?auto=compress,format'}
               ></img>
-              <h3 className="listing-title">Stone Island</h3>
-              {/* <p className="listing-attribute">Price: $120</p> */}
+              <h3 className="listing-title">[11] Croc Clogs</h3>
+              <p className="listing-attribute">Price: $70</p>
             </a>
         </Grid>
         );
     }
 }
 
-export default StoneyCard;
+export default CrocsCard;

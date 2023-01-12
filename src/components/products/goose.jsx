@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-import "./base.css";
+import "../base.css";
+import Header from '../header';
 
 class Goose extends Component {
 
     render() {
         return (
             <header className="App-header">
-            <br></br>
-            <br></br>
-            <a className="desktop-header" href="/catelogue">"F & G Reps"</a>
-            <a className="mobile-header" href="/catelogue">"F & G Reps"</a>
-            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
-
+            <Header></Header>
             <div className='product-container'>
             <img className='product-image' src='https://cdn.shopify.com/s/files/1/1230/9376/products/CGO-4154M_7E_7EStudio_20Side_20Black.jpg?v=1662097432'></img>
             <div className="product-text">

@@ -1,17 +1,15 @@
 
 
 import React, { Component } from 'react';
-import "./base.css";
+import "../base.css";
+import Header from '../header';
 
 class Moncler extends Component {
 
     render() {
         return (
             <header className="App-header">
-            <br></br>
-            <br></br>
-            <a className="desktop-header" href="/catelogue">"F & G Reps"</a>
-            <a className="mobile-header" href="/catelogue">"F & G Reps"</a>
+            <Header></Header>
             <div className='product-container'>
             <img className='product-image' src='https://s3.amazonaws.com/images.nidacaserta.it/A22---MONCLER+GRENOBLE---3B000-12-M1131034.JPG'></img>
             <div className="product-text">

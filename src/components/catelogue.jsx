@@ -2,22 +2,17 @@
 import React, { Component } from 'react';
 import { Box, Grid } from "@mui/material";
 import "./base.css";
-import { DunkCard, GooseCard, EssentialsCard, EE, StoneyCard, CommonProjectsCard, ShoesCard, ClothesCard, MonclerCard, GoyardCard, NB550Card, AF1Card, TNFCard } from './cards';
+// import { DunkCard, GooseCard, EssentialsCard, EE, StoneyCard, CommonProjectsCard, ShoesCard, ClothesCard, MonclerCard, GoyardCard, NB550Card, AF1Card, CrocsCard} from './cards';
+import * as Cards from './cards'
+import Header from './header';
+
 
 class Catelogue extends Component {
 
     render() {
         return (
         <Box className="App">
-        <Box className="App-header">
-            <br></br>
-            <br></br>
-            <a className="desktop-header" href="/">"F & G Reps"</a>
-            <a className="mobile-header" href="/">"F & G Reps"</a>
-            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
-            </Box>
-            <br/>
-            <br/>
+          <Header></Header>
             <Box className="App-body">
               <Grid
                 container
@@ -27,20 +22,19 @@ class Catelogue extends Component {
                 sx={{  ml: 1, mr: 1, margin: 0 }}
                 justifyContent="left"
               >
-                  <StoneyCard></StoneyCard>
-                  <ShoesCard></ShoesCard>
-                  <ClothesCard></ClothesCard>
-                  <DunkCard></DunkCard>
-                  <GooseCard></GooseCard>
-                  <EssentialsCard></EssentialsCard>
-                  <EE></EE>
-                  <CommonProjectsCard></CommonProjectsCard>
-                  <MonclerCard></MonclerCard>
-                  <GoyardCard></GoyardCard>
-                 
-                  <NB550Card></NB550Card>
-                  <AF1Card></AF1Card>
-                  <TNFCard></TNFCard>
+                  <Cards.StoneyCard></Cards.StoneyCard>
+                  <Cards.DunkCard></Cards.DunkCard>
+                  <Cards.GooseCard></Cards.GooseCard>
+                  <Cards.EssentialsCard></Cards.EssentialsCard>
+                  <Cards.EECard></Cards.EECard>
+                  <Cards.CommonProjectsCard></Cards.CommonProjectsCard>
+                  <Cards.MonclerCard></Cards.MonclerCard>
+                  <Cards.GoyardCard></Cards.GoyardCard>
+                  <Cards.NB550Card></Cards.NB550Card>
+                  <Cards.AF1Card></Cards.AF1Card>
+                  <Cards.TNFCard></Cards.TNFCard>
+                  <Cards.CrocsCard></Cards.CrocsCard>
+                  <Cards.NB99XCard></Cards.NB99XCard>
 
                   
 
