@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-import "./base.css";
+import "../base.css";
+import Header from '../header';
 
 class Crocs extends Component {
 
     render() {
         return (
             <header className="App-header">
-            <br></br>
-            <br></br>
-            <a className="desktop-header" href="/catelogue">"F & G Reps"</a>
-            <a className="mobile-header" href="/catelogue">"F & G Reps"</a>
-            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
-
+            <Header></Header>
             <div className='product-container'>
             <img className='product-image' src='https://media.endclothing.com/end-features/f_auto,q_auto:eco,w_1520/prodfeatures/e9abef85-97ee-45a9-98a8-2e35a58f57cf_salehe+bembury+Kuwata+Clog+Banner.jpg?auto=compress,format'></img>
             <div className="product-text">

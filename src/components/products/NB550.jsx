@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-import "./base.css";
+import "../base.css";
+import Header from '../header';
 
 class NB550 extends Component {
 
     render() {
         return (
             <header className="App-header">
-            <br></br>
-            <br></br>
-            <a className="desktop-header" href="/catelogue">"F & G Reps"</a>
-            <a className="mobile-header" href="/catelogue">"F & G Reps"</a>
-            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
-
+            <Header></Header>
             <div className='product-container'>
             <img className='product-image' src='https://sneakernews.com/wp-content/uploads/2022/02/New-Balance-550-History-016.jpg'></img>
             <div className="product-text">

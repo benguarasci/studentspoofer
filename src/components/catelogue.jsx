@@ -4,22 +4,15 @@ import { Box, Grid } from "@mui/material";
 import "./base.css";
 // import { DunkCard, GooseCard, EssentialsCard, EE, StoneyCard, CommonProjectsCard, ShoesCard, ClothesCard, MonclerCard, GoyardCard, NB550Card, AF1Card, CrocsCard} from './cards';
 import * as Cards from './cards'
-import EECard from './cards/EECard';
+import Header from './header';
+
 
 class Catelogue extends Component {
 
     render() {
         return (
         <Box className="App">
-        <Box className="App-header">
-            <br></br>
-            <br></br>
-            <a className="desktop-header" href="/">"F & G Reps"</a>
-            <a className="mobile-header" href="/">"F & G Reps"</a>
-            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
-            </Box>
-            <br/>
-            <br/>
+          <Header></Header>
             <Box className="App-body">
               <Grid
                 container

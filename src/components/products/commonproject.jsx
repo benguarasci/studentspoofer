@@ -1,18 +1,15 @@
 
 
 import React, { Component } from 'react';
-import "./base.css";
+import "../base.css";
+import Header from '../header';
 
 class CommonProjects extends Component {
 
     render() {
         return (
             <header className="App-header">
-            <br></br>
-            <br></br>
-            <a className="desktop-header" href="/catelogue">"F & G Reps"</a>
-            <a className="mobile-header" href="/catelogue">"F & G Reps"</a>
-            <a className="download" href='./assets' download="orderform.xltx">Download Order Form</a>
+            <Header></Header>
 
             <div className='product-container'>
             <img className='product-image' src='https://media.gq.com/photos/57a9edb8251c1fea0b079a1c/master/pass/common-projects-multi-color.jpg'></img>
