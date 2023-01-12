@@ -15,7 +15,7 @@ class EE extends Component {
             <div className="product-text">
             <h1 className='title'>[04] Eric Emanuel shorts</h1>
             <h2 className='price'>$40</h2>
-            <p className='title'>Good quality.</p>   
+            <p className='title'>Good quality. True to size</p>   
             <p className='title'>Colors:</p>
             <p className='title'>[0401] | White - Brown Label</p>
             <p className='title'>[0402] | Black - Red label</p>

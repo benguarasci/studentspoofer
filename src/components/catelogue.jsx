@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { Box, Grid } from "@mui/material";
 import "./base.css";
-import { DunkCard, GooseCard, EssentialsCard, EE, StoneyCard, CommonProjectsCard, ShoesCard, ClothesCard } from './cards';
+import { DunkCard, GooseCard, EssentialsCard, EE, StoneyCard, CommonProjectsCard, ShoesCard, ClothesCard, MonclerCard, GoyardCard } from './cards';
 
 class Catelogue extends Component {
 
@@ -34,6 +34,8 @@ class Catelogue extends Component {
                   <EssentialsCard></EssentialsCard>
                   <EE></EE>
                   <CommonProjectsCard></CommonProjectsCard>
+                  <MonclerCard></MonclerCard>
+                  <GoyardCard></GoyardCard>
 
                   
 

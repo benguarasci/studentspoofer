@@ -15,8 +15,11 @@ class Clothes extends Component {
             <div className="product-text">
             <h1 className='title'>Misc Clothes</h1>
             <h2 className='price'>$TBD</h2>
-            <p className='title'>Can get pretty much anything from this link</p> 
+            <p className='title'>Can get pretty much anything from these links</p> 
             <a target="_blank" rel="noopener noreferrer" href="https://o832club.x.yupoo.com/albums">Link</a>
+             {/* <p className='title'></p>   */}
+            <br></br>
+            <a target="_blank" rel="noopener noreferrer" href="https://chaosmade.x.yupoo.com/albums">sussy balls/ur gay</a>
             </div>
             </div>
             </header>
