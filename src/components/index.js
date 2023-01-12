@@ -11,3 +11,4 @@ export { default as Shoes } from "./shoes";
 export { default as Clothes } from "./clothes";
 export { default as Moncler } from "./moncler";
 export { default as Goyard } from "./goyard";
+export { default as TNF } from "./tnf";

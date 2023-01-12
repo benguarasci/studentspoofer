@@ -1,27 +1,28 @@
+
 import React, { Component } from 'react';
 import { Box, Grid } from "@mui/material";
 import "../base.css";
 
-class MonclerCard extends Component {
+class TNFCard extends Component {
 
     render() {
         return (
             <Grid xs={12} sm={6} md={4} lg={3}>
             <a
               className="listing-card listing-link"
-              href={'/catelogue/moncler'}
+              href={'/catelogue/tnf'}
             >
               <img
                 className="listing-image"
                 alt={'product'}
-                src={'https://s3.amazonaws.com/images.nidacaserta.it/A22---MONCLER+GRENOBLE---3B000-12-M1131034.JPG'}
+                src={'https://media.endclothing.com/media/catalog/product/1/4/14-09-2021_GH_NF0A3JQQLE4_m1_1.jpg'}
               ></img>
-              <h3 className="listing-title">[06] Moncler Touques</h3>
-              <p className="listing-attribute">Price: $35</p>
+              <h3 className="listing-title">[10] North Face Puffer Vest</h3>
+              <p className="listing-attribute">Price: $100</p>
             </a>
         </Grid>
         );
     }
 }
 
-export default MonclerCard;
+export default TNFCard;

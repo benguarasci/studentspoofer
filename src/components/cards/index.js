@@ -8,3 +8,4 @@ export { default as ShoesCard } from "./shoesCard";
 export { default as ClothesCard } from "./clothesCard";
 export { default as MonclerCard } from "./monclerCard";
 export { default as GoyardCard } from "./goyardCard";
+export { default as TNFCard } from "./tnfCard";
