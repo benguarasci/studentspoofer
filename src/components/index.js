@@ -9,3 +9,5 @@ export { default as Topstoney } from "./topstoney";
 export { default as CommonProjects } from "./commonproject";
 export { default as Shoes } from "./shoes";
 export { default as Clothes } from "./clothes";
+export { default as Moncler } from "./moncler";
+export { default as Goyard } from "./goyard";

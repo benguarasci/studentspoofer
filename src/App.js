@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Home, Catelogue, Dunks, Goose, Essentials, EE, Topstoney, CommonProjects, Shoes, Clothes} from "./components";
+import { Home, Catelogue, Dunks, Goose, Essentials, EE, Topstoney, CommonProjects, Shoes, Clothes, Moncler, Goyard} from "./components";
 
 
 function App() {
@@ -20,7 +20,8 @@ function App() {
           <Route path="/catelogue/commonprojects" exact component={() => <CommonProjects />} />
           <Route path="/catelogue/shoes" exact component={() => <Shoes />} />
           <Route path="/catelogue/clothes" exact component={() => <Clothes />} />
-
+          <Route path="/catelogue/moncler" exact component={() => <Moncler />} />
+          <Route path="/catelogue/goyard" exact component={() => <Goyard />} />
           
 
       </Router>

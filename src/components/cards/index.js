@@ -6,3 +6,5 @@ export { default as StoneyCard } from "./topstoneyCard";
 export { default as CommonProjectsCard } from "./commonprojectsCard";
 export { default as ShoesCard } from "./shoesCard";
 export { default as ClothesCard } from "./clothesCard";
+export { default as MonclerCard } from "./monclerCard";
+export { default as GoyardCard } from "./goyardCard";
