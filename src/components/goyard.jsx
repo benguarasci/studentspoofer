@@ -13,7 +13,7 @@ class Goyard extends Component {
             <a className="desktop-header" href="/catelogue">"F & G Reps"</a>
             <a className="mobile-header" href="/catelogue">"F & G Reps"</a>
             <div className='product-container'>
-            <img className='product-image' src='https://a.1stdibscdn.com/archivesE/upload/1722654/v_1170172/IMG_7838_org_s.jpg'></img>
+            <img className='product-image' src='https://images.stockx.com/images/Goyard-Saint-Sulpice-Navy-Blue-V.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&trimcolor=ffffff&updated_at=1637165539'></img>
             <div className="product-text">
             <h1 className='title'>[07] Goyard Cardholder</h1>
             <h2 className='price'>$35</h2>

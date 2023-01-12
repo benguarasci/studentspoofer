@@ -13,7 +13,7 @@ class Moncler extends Component {
             <a className="desktop-header" href="/catelogue">"F & G Reps"</a>
             <a className="mobile-header" href="/catelogue">"F & G Reps"</a>
             <div className='product-container'>
-            <img className='product-image' src='https://media.endclothing.com/media/catalog/product/1/8/18-10-2022_SI_3B000-50-M1900-032_m1_1.jpg'></img>
+            <img className='product-image' src='https://s3.amazonaws.com/images.nidacaserta.it/A22---MONCLER+GRENOBLE---3B000-12-M1131034.JPG'></img>
             <div className="product-text">
             <h1 className='title'>[06] Moncler Touques</h1>
             <h2 className='price'>$35</h2>

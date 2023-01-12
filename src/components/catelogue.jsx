@@ -5,7 +5,7 @@ import "./base.css";
 // import { DunkCard, GooseCard, EssentialsCard, EE, StoneyCard, CommonProjectsCard, ShoesCard, ClothesCard, MonclerCard, GoyardCard, NB550Card, AF1Card, CrocsCard} from './cards';
 import * as Cards from './cards'
 import EECard from './cards/EECard';
-import { Moncler } from '.';
+
 class Catelogue extends Component {
 
     render() {
@@ -39,6 +39,7 @@ class Catelogue extends Component {
                   <Cards.GoyardCard></Cards.GoyardCard>
                   <Cards.NB550Card></Cards.NB550Card>
                   <Cards.AF1Card></Cards.AF1Card>
+                  <Cards.TNFCard></Cards.TNFCard>
                   <Cards.CrocsCard></Cards.CrocsCard>
 
                   
