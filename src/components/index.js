@@ -13,3 +13,4 @@ export { default as Moncler } from "./moncler";
 export { default as Goyard } from "./goyard";
 export { default as NB550 } from "./NB550";
 export { default as AF1 } from "./AF1";
+export { default as Crocs } from "./Crocs";
