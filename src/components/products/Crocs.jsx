@@ -11,10 +11,10 @@ class Crocs extends Component {
             <div className='product-container'>
             <img className='product-image' src='https://media.endclothing.com/end-features/f_auto,q_auto:eco,w_1520/prodfeatures/e9abef85-97ee-45a9-98a8-2e35a58f57cf_salehe+bembury+Kuwata+Clog+Banner.jpg?auto=compress,format'></img>
             <div className="product-text">
-            <h1 className='title'>[11] Croc Clogs</h1>
+            <h1 className='description'>[11] Croc Clogs</h1>
             <h2 className='price'>$70</h2>
-            <p className='title'>Can get pretty much any colourway but here are a few that we have been verified. Good quality. True to size</p>   
-            <p className='title'>Colors:</p>
+            <p className='description'>Can get pretty much any colourway but here are a few that we have been verified. Good quality. True to size</p>   
+            <p className='description'>Colors:</p>
             <img className='product-image' src='https://cbu01.alicdn.com/img/ibank/O1CN017ySkGV1hfjnkZl7oe_!!3823534305-0-cib.jpg'></img>
             <p className='title'>[1101] | Green</p>
             

@@ -14,10 +14,10 @@ class CommonProjects extends Component {
             <div className='product-container'>
             <img className='product-image' src='https://media.gq.com/photos/57a9edb8251c1fea0b079a1c/master/pass/common-projects-multi-color.jpg'></img>
             <div className="product-text">
-            <h1 className='title'>[05] Common Project Chelsea Boots</h1>
+            <h1 className='description'>[05] Common Project Chelsea Boots</h1>
             <h2 className='price'>$150</h2>
-            <p className='title'>Quality is fire. Size down twice</p>   
-            <p className='title'>Colors:</p>
+            <p className='description'>Quality is fire. Size down twice</p>   
+            <p className='description'>Colors:</p>
             
             <img className='product-image' src='https://gw.alicdn.com/bao/uploaded/i2/2763182845/TB2wupjjSYH8KJjSspdXXcRgVXa_!!2763182845.jpg'></img>
             <p className='title'>[0501] | Sand</p>

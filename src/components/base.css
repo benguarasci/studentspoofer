@@ -147,7 +147,7 @@
   }
 
   .price{
-    margin: 0;
+    margin-bottom: 20px;
     align-self: left;
   }
 
@@ -247,7 +247,7 @@
     /* background-color: #282c34; */
     background-color: white;
     margin: 0;
-    padding-top: 30px;
+    padding-bottom: 20px;
   }
 
   .listing-card {
@@ -277,6 +277,10 @@
 
     .listing-link:visited{
         text-decoration: none;
+    }
+
+    .description{
+      margin: 0px
     }
 
 
@@ -398,6 +402,11 @@
     }
     .listing-card:hover{
       transform: scale(1.0);
+    }
+
+    .product-image{
+      max-width: 100%;
+      margin: 0;
     }
 
     .mobile-header{

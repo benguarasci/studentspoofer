@@ -11,10 +11,10 @@ class NB550 extends Component {
             <div className='product-container'>
             <img className='product-image' src='https://sneakernews.com/wp-content/uploads/2022/02/New-Balance-550-History-016.jpg'></img>
             <div className="product-text">
-            <h1 className='title'>[08] New Balance 550</h1>
+            <h1 className='description'>[08] New Balance 550</h1>
             <h2 className='price'>$120</h2>
-            <p className='title'>Can get pretty much any colourway but here are a few that we have been verified. Good quality. True to size</p>   
-            <p className='title'>Colors:</p>
+            <p className='description'>Can get pretty much any colourway but here are a few that we have been verified. Good quality. True to size</p>   
+            <p className='description'>Colors:</p>
             <img className='product-image' src='https://si.geilicdn.com/wdseller1472774553-5c590000017b87d7102e0a20e2c5_3026_3024.jpg'></img>
             <p className='title'>[0801] | White and Green</p>
             

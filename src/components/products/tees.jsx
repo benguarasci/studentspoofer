@@ -11,10 +11,10 @@ class Tees extends Component {
             <div className='product-container'>
             <img className='product-image' src='https://media.gq.com/photos/62449bb9c7d2b6b7cae2f8a5/3:2/w_1686,h_1124,c_limit/vintage-tees.jpg'></img>
             <div className="product-text">
-            <h1 className='title'>[13] Tees</h1>
+            <h1 className='description'>[13] Tees</h1>
             <h2 className='price'>$120</h2>
-            <p className='title'>These are a bunch of good quality tee shirt. More will be added soon</p>   
-            <p className='title'>shirts:</p>
+            <p className='description'>These are a bunch of good quality tee shirt. More will be added soon</p>   
+            <p className='description'>shirts:</p>
             <img className='product-image' src='https://ofour.com/wp-content/uploads/2020/12/1-21.jpg'></img>
             <p className='title'>[1301] | Palace x Arcteryx</p>
             

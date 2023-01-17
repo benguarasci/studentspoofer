@@ -11,10 +11,10 @@ class NB99X extends Component {
             <div className='product-container'>
             <img className='product-image' src='https://media.gq.com/photos/5cae87abbbeea90d15ad94e8/4:3/w_2663,h_1997,c_limit/New-Balance-13806.jpg'></img>
             <div className="product-text">
-            <h1 className='title'>[12] New Balance 99X Line</h1>
+            <h1 className='description'>[12] New Balance 99X Line</h1>
             <h2 className='price'>$150</h2>
-            <p className='title'>Can get pretty much any colourway but here are a few that we have been verified. Good quality. True to size</p>   
-            <p className='title'>Colors:</p>
+            <p className='description'>Can get pretty much any colourway but here are a few that we have been verified. Good quality. True to size</p>   
+            <p className='description'>Colors:</p>
             <img className='product-image' src='https://gw.alicdn.com/bao/uploaded/i4/2208721770277/O1CN01mPp78Y1DuuK9i0754_!!2208721770277.jpg'></img>
             <p className='title'>[0801] | 992 Dark Grey</p>
 

@@ -28,6 +28,8 @@ function App() {
           <Route path="/catelogue/crocs" exact component={() => <Page.Crocs />} />
           <Route path="/catelogue/NB99X" exact component={() => <Page.NB99X />} />
           <Route path="/catelogue/tees" exact component={() => <Page.Tees />} />
+          <Route path="/catelogue/cplow" exact component={() => <Page.CPLow />} />
+
 
 
 

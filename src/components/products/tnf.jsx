@@ -11,10 +11,10 @@ class TNF extends Component {
             <div className='product-container'>
             <img className='product-image' src='https://media.endclothing.com/media/catalog/product/1/4/14-09-2021_GH_NF0A3JQQLE4_m1_1.jpg'></img>
             <div className="product-text">
-            <h1 className='title'>[10] North Face Puffer Vest</h1>
+            <h1 className='description'>[10] North Face Puffer Vest</h1>
             <h2 className='price'>$100</h2>
-            <p className='title'>Looks Legit, will update later</p>   
-            <p className='title'>Colors:</p>
+            <p className='description'>Looks Legit, will update later</p>   
+            <p className='description'>Colors:</p>
             {/* <img className='product-image' src='https://cbu01.alicdn.com/img/ibank/O1CN01A5NCWo1irTacN0vjm_!!2206590174466-0-cib.jpg'></img> */}
             <p className='title'>[1001] | Black</p>
             {/* <img className='product-image' src='https://cbu01.alicdn.com/img/ibank/O1CN01FaR4511irTXTfpqEE_!!2206590174466-0-cib.jpg'></img> */}
