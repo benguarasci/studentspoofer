@@ -12,7 +12,7 @@ class Home extends Component {
             <Header></Header>
             <div className="about-text">
             <p className='title'>Disclaimer!! Shits from china so there are no returns.</p>
-
+<p>To order anything, click the order form above, and paste the ID number, and/or the link with your prefered size in to the designated area.  </p>
 
             </div>
             <div className='feedback-div'>
