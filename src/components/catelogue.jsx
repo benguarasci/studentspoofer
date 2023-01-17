@@ -25,6 +25,8 @@ class Catelogue extends Component {
                 justifyContent="left"
               >
                   <Cards.StoneyCard></Cards.StoneyCard>
+                  <Cards.ClothesCard></Cards.ClothesCard>
+                  <Cards.ShoesCard></Cards.ShoesCard>
                   <Cards.DunkCard></Cards.DunkCard>
                   <Cards.GooseCard></Cards.GooseCard>
                   <Cards.EssentialsCard></Cards.EssentialsCard>
