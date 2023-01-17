@@ -38,6 +38,7 @@ class Catelogue extends Component {
                   <Cards.CrocsCard></Cards.CrocsCard>
                   <Cards.NB99XCard></Cards.NB99XCard>
                   <Cards.TeesCard></Cards.TeesCard>
+                  <Cards.CPLowCard></Cards.CPLowCard>
 
               </Grid>
             </Box>

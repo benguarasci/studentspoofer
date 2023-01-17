@@ -11,9 +11,9 @@ class Clothes extends Component {
             <div className='product-container'>
             <img className='product-image' src='https://www.newidea.com.au/media/73491/thailand-1997.jpg?width=720&center=0.0,0.0'></img>
             <div className="product-text">
-            <h1 className='title'>Misc Clothes</h1>
+            <h1 className='description'>Misc Clothes</h1>
             <h2 className='price'>$TBD</h2>
-            <p className='title'>Can get pretty much anything from these links</p> 
+            <p className='description'>Can get pretty much anything from these links</p> 
             <a target="_blank" rel="noopener noreferrer" href="https://o832club.x.yupoo.com/albums">Link</a>
              {/* <p className='title'></p>   */}
             <br></br>

@@ -11,10 +11,10 @@ class EE extends Component {
             <div className='product-container'>
             <img className='product-image' src='https://img.alicdn.com/imgextra/i2/652965212/O1CN01njoaqu1oN8zmMlxxZ_!!652965212.jpg'></img>
             <div className="product-text">
-            <h1 className='title'>[04] Eric Emanuel shorts</h1>
+            <h1 className='description'>[04] Eric Emanuel shorts</h1>
             <h2 className='price'>$40</h2>
-            <p className='title'>Good quality. True to size</p>   
-            <p className='title'>Colors:</p>
+            <p className='description'>Good quality. True to size</p>   
+            <p className='description'>Colors:</p>
             <p className='title'>[0401] | White - Brown Label</p>
             <p className='title'>[0402] | Black - Red label</p>
             <p className='title'>[0403] | Black - Grey label</p>

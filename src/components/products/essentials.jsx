@@ -11,10 +11,10 @@ class Essentials extends Component {
             <div className='product-container'>
             {/* <img className='product-image' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1nT0AnEqXNiW6n0cL8tD_ETu7DgOuto3Ehg&usqp=CAU'></img> */}
             <div className="product-text">
-            <h1 className='title'>[03] Essentials FOG Hoodie</h1>
+            <h1 className='description'>[03] Essentials FOG Hoodie</h1>
             <h2 className='price'>$50</h2>
-            <p className='title'>Good quality. True to size</p>   
-            <p className='title'>Colors:</p>
+            <p className='description'>Good quality. True to size</p>   
+            <p className='description'>Colors:</p>
             
             <img className='product-image' src='https://img.alicdn.com/imgextra/i2/1090806015/O1CN01aPuxbq1uIv5B3jEK3_!!1090806015.jpg'></img>
             <p className='title'>[0301] | White</p>

@@ -13,10 +13,10 @@ class Goyard extends Component {
             <div className='product-container'>
             <img className='product-image' src='https://images.stockx.com/images/Goyard-Saint-Sulpice-Navy-Blue-V.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&trimcolor=ffffff&updated_at=1637165539'></img>
             <div className="product-text">
-            <h1 className='title'>[07] Goyard Cardholder</h1>
+            <h1 className='description'>[07] Goyard Cardholder</h1>
             <h2 className='price'>$35</h2>
-            <p className='title'>Decent quality, Essential for any order</p>   
-            <p className='title'>Colors:</p>
+            <p className='description'>Decent quality, Essential for any order</p>   
+            <p className='description'>Colors:</p>
             
             <img className='product-image' src='https://img.alicdn.com/imgextra/i2/3046765323/O1CN01OUVQQC1pBz0tCF2Ru_!!3046765323.jpg'></img>
             <p className='title'>[0701] | White</p>
