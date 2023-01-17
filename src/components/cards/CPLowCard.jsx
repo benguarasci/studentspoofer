@@ -16,7 +16,7 @@ class CrocsCard extends Component {
                 alt={'product'}
                 src={'https://img.alicdn.com/imgextra/i4/2763182845/O1CN01WPqGbt1Wt3Zu0a0Ma_!!2763182845.jpg'}
               ></img>
-              <h3 className="listing-title">[13] Common Project Achillies Low</h3>
+              <h3 className="listing-title">[14] Common Project Achillies Low</h3>
               <p className="listing-attribute">Price: $150</p>
             </a>
         </Grid>
