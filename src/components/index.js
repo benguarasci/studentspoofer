@@ -16,3 +16,4 @@ export { default as NB550 } from "./products/NB550";
 export { default as AF1 } from "./products/AF1";
 export { default as Crocs } from "./products/Crocs";
 export { default as NB99X } from "./products/NB99X";
+export { default as Tees } from "./products/tees";
