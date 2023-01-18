@@ -2,7 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ReactGA from 'react-ga4';
+
+
 import reportWebVitals from './reportWebVitals';
+
+
+ReactGA.initialize("G-ER292E16NF");
 
 ReactDOM.render(
   <React.StrictMode>
