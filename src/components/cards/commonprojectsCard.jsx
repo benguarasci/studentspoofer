@@ -18,6 +18,7 @@ class CommonProjectsCard extends Component {
                 src={'https://media.gq.com/photos/57a9edb8251c1fea0b079a1c/master/pass/common-projects-multi-color.jpg'}
               ></img>
               <h3 className="listing-title">[05] Common Project Boots</h3>
+              <p className="verified">VERIFIED</p>
               <p className="listing-attribute">Price: $150</p>
             </a>
         </Grid>

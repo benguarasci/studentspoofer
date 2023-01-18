@@ -30,7 +30,7 @@ class Catelogue extends Component {
                   <Cards.DunkCard></Cards.DunkCard>
                   <Cards.GooseCard></Cards.GooseCard>
                   <Cards.EssentialsCard></Cards.EssentialsCard>
-                  <Cards.EECard></Cards.EECard>
+                  <Cards.CPLowCard></Cards.CPLowCard>
                   <Cards.CommonProjectsCard></Cards.CommonProjectsCard>
                   <Cards.MonclerCard></Cards.MonclerCard>
                   <Cards.GoyardCard></Cards.GoyardCard>
@@ -40,7 +40,7 @@ class Catelogue extends Component {
                   <Cards.CrocsCard></Cards.CrocsCard>
                   <Cards.NB99XCard></Cards.NB99XCard>
                   <Cards.TeesCard></Cards.TeesCard>
-                  <Cards.CPLowCard></Cards.CPLowCard>
+                  <Cards.EECard></Cards.EECard>
 
               </Grid>
             </Box>

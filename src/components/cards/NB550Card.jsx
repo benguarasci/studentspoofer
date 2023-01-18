@@ -17,6 +17,7 @@ class NB550Card extends Component {
                 src={'https://sneakernews.com/wp-content/uploads/2022/02/New-Balance-550-History-016.jpg'}
               ></img>
               <h3 className="listing-title">[08] New Balance 550</h3>
+              <p className="verified">VERIFIED</p>
               <p className="listing-attribute">Price: $100</p>
             </a>
         </Grid>

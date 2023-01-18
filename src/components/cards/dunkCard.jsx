@@ -18,7 +18,9 @@ class DunkCard extends Component {
                 src={'https://i.pinimg.com/originals/de/a9/a0/dea9a02938621cf3f311ea72c1d166ae.jpg'}
               ></img>
               <h3 className="listing-title">[01] Nike Dunk Low</h3>
+              <p className="verified">VERIFIED</p>
               <p className="listing-attribute">Price: $120</p>
+
             </a>
         </Grid>
         );

@@ -17,6 +17,7 @@ class MonclerCard extends Component {
                 src={'https://s3.amazonaws.com/images.nidacaserta.it/A22---MONCLER+GRENOBLE---3B000-12-M1131034.JPG'}
               ></img>
               <h3 className="listing-title">[06] Moncler Touques</h3>
+              <p className="verified">VERIFIED</p>
               <p className="listing-attribute">Price: $35</p>
             </a>
         </Grid>

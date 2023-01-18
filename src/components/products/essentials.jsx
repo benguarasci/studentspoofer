@@ -12,6 +12,8 @@ class Essentials extends Component {
             {/* <img className='product-image' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1nT0AnEqXNiW6n0cL8tD_ETu7DgOuto3Ehg&usqp=CAU'></img> */}
             <div className="product-text">
             <h1 className='description'>[03] Essentials FOG Hoodie</h1>
+            <h2 className="verified-product">VERIFIED</h2>
+
             <h2 className='price'>$50</h2>
             <p className='description'>Good quality. True to size</p>   
             <p className='description'>Colors:</p>

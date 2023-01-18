@@ -18,3 +18,5 @@ export { default as Crocs } from "./products/Crocs";
 export { default as NB99X } from "./products/NB99X";
 export { default as Tees } from "./products/tees";
 export { default as CPLow } from "./products/CPLow";
+export { default as Instructions } from "./instructions";
+
