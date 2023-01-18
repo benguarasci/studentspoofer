@@ -5,16 +5,20 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import { Home, Catelogue, Dunks, Goose, Essentials, EE, Topstoney, CommonProjects, Shoes, Clothes, Moncler, Goyard, NB550, AF1, TNF, Crocs} from "./components";
 import * as Page from './components'
 
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 function App() {
 
-  const trackingid = "G-ER292E16NF"
-  ReactGA.initialize(trackingid);
+  // const trackingid = "G-ER292E16NF"
+  // ReactGA.initialize(trackingid);
 
-  useEffect(() =>{
-    ReactGA.pageview(window.location.pathname + window.location.search)
-  })
+  // // useEffect(() =>{
+  // //   ReactGA.pageview(window.location.pathname + window.location.search)
+  // // })
+
+  // useEffect(() => {
+  //   ReactGA.pageview(window.location.pathname + window.location.search);
+  // }, []);
 
   return (
     <div className="App">
