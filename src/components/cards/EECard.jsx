@@ -17,7 +17,8 @@ class EECard extends Component {
                 alt={'product'}
                 src={'https://img.alicdn.com/imgextra/i2/652965212/O1CN01njoaqu1oN8zmMlxxZ_!!652965212.jpg'}
               ></img>
-              <h3 className="listing-title">[04] Eric Emanuel Shorts</h3>
+              <h3 className="listing-title">[14] Eric Emanuel Shorts</h3>
+              <p className="verified">VERIFIED</p>
               <p className="listing-attribute">Price: $40</p>
             </a>
         </Grid>

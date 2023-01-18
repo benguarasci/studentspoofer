@@ -16,7 +16,7 @@ class ClothesCard extends Component {
                 alt={'product'}
                 src={'https://www.newidea.com.au/media/73491/thailand-1997.jpg?width=720&center=0.0,0.0'}
               ></img>
-              <h3 className="listing-title">Cothes n' shit</h3>
+              <h3 className="listing-title">Misc Clothes</h3>
               {/* <p className="listing-attribute">Price: $120</p> */}
             </a>
         </Grid>

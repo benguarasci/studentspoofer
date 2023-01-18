@@ -13,7 +13,7 @@ class Clothes extends Component {
             <div className="product-text">
             <h1 className='description'>Misc Clothes</h1>
             {/* <h2 className='price'>$TBD</h2> */}
-            <p className='description'>Loads of cool shit on this link</p> 
+            <p className='description'>Can get most of the items on this link</p> 
             <p>
             </p>
             <a target="_blank" rel="noopener noreferrer" href="https://husky-reps.x.yupoo.com/albums">Link</a>

@@ -12,6 +12,8 @@ class Goose extends Component {
             <img className='product-image' src='https://cdn.shopify.com/s/files/1/1230/9376/products/CGO-4154M_7E_7EStudio_20Side_20Black.jpg?v=1662097432'></img>
             <div className="product-text">
             <h1 className='description'>[02] Canada Goose Vest</h1>
+            <h2 className="verified-product">VERIFIED</h2>
+
             <h2 className='price'>$100</h2>
             <p className='description'>Basically legit. Size up</p>   
             <p className='description'>Colors:</p>

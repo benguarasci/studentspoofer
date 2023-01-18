@@ -325,6 +325,22 @@
     color: black;
   }
 
+  .verified{
+    margin: 1%;
+    font-size: 14px;
+    max-width: 285px;
+    text-align: left;
+    font-weight: bold;
+    color: green;
+    }
+
+  .verified-product{
+    margin: 0;
+    font-weight: bold;
+    color: green;
+    }
+
+
   .feedback{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     background:rgb(255, 0, 0);

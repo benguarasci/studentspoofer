@@ -14,8 +14,10 @@ class Moncler extends Component {
             <img className='product-image' src='https://s3.amazonaws.com/images.nidacaserta.it/A22---MONCLER+GRENOBLE---3B000-12-M1131034.JPG'></img>
             <div className="product-text">
             <h1 className='description'>[06] Moncler Touques</h1>
+            <h2 className="verified-product">VERIFIED</h2>
+
             <h2 className='price'>$35</h2>
-            <p className='description'>Hopefully good quality</p>   
+            <p className='description'>Good quality</p>   
             <p className='description'>Colors:</p>
             
             <img className='product-image' src='https://img.alicdn.com/imgextra/i3/680738083/O1CN01JIOKFl29a4BYz7tkX_!!680738083.jpg'></img>

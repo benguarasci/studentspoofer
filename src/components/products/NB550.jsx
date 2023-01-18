@@ -12,6 +12,8 @@ class NB550 extends Component {
             <img className='product-image' src='https://sneakernews.com/wp-content/uploads/2022/02/New-Balance-550-History-016.jpg'></img>
             <div className="product-text">
             <h1 className='description'>[08] New Balance 550</h1>
+            <h2 className="verified-product">VERIFIED</h2>
+
             <h2 className='price'>$120</h2>
             <p className='description'>Can get pretty much any colourway but here are a few that we have been verified. Good quality. True to size</p>   
             <p className='description'>Colors:</p>

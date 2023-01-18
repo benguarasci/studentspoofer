@@ -12,6 +12,8 @@ class Tees extends Component {
             <img className='product-image' src='https://media.gq.com/photos/62449bb9c7d2b6b7cae2f8a5/3:2/w_1686,h_1124,c_limit/vintage-tees.jpg'></img>
             <div className="product-text">
             <h1 className='description'>[13] Tees</h1>
+            <h2 className="verified-product">VERIFIED</h2>
+
             <h2 className='price'>$30</h2>
             <p className='description'>These are a bunch of good quality tee shirt. More will be added soon</p>   
             <p className='description'>shirts:</p>
