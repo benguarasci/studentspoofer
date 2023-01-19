@@ -1,5 +1,5 @@
 export { default as Home } from "./home";
-export { default as Catelogue } from "./catelogue";
+export { default as Catalog } from "./catalog";
 export { default as ProductCard } from "./cards/dunkCard";
 export { default as Dunks } from "./products/dunks";
 export { default as Goose } from "./products/goose";

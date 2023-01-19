@@ -9,7 +9,7 @@ class GoyardCard extends Component {
             <Grid xs={12} sm={6} md={4} lg={3}>
             <a
               className="listing-card listing-link"
-              href={'/catelogue/goyard'}
+              href={'/catalog/goyard'}
             >
               <img
                 className="listing-image"
