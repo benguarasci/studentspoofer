@@ -10,7 +10,7 @@ class NB99XCard extends Component {
             <Grid xs={12} sm={6} md={4} lg={3}>
             <a
               className="listing-card listing-link"
-              href={'/catelogue/NB99X'}
+              href={'/catalog/NB99X'}
             >
               <img
                 className="listing-image"

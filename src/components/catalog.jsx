@@ -9,7 +9,7 @@ import NB550 from './products/NB550';
 import TeesCard from './cards/teesCard';
 
 
-class Catelogue extends Component {
+class Catalog extends Component {
 
     render() {
         return (
@@ -49,4 +49,4 @@ class Catelogue extends Component {
     }
 }
 
-export default Catelogue;
+export default Catalog;
