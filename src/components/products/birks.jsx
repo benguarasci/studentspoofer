@@ -12,6 +12,8 @@ class birks extends Component {
             <img className='product-image' src='https://gw.alicdn.com/bao/uploaded/i2/3027414106/O1CN01VP0B711gCazppAn5c_!!3027414106.jpg'></img>
             <div className="product-text">
             <h1 className='description'>[19] Birkenstocks </h1>
+            <h2 className="verified-product">VERIFIED</h2>
+
             <h2 className='price'>$70</h2>
             <p className='description'>Good quality jesus walks </p>   
             <p className='description'>Colours:</p>

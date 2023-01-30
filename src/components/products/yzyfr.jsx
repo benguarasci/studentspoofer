@@ -12,7 +12,10 @@ class yzyfr extends Component {
             <img className='product-image' src='http://cdn.shopify.com/s/files/1/0019/7027/4371/products/fm1_yepsmm.jpg?v=1662605088'></img>
             <div className="product-text">
             <h1 className='description'>[17] YZY Slides</h1>
+            <h2 className="verified-product">VERIFIED</h2>
+
             <h2 className='price'>$50</h2>
+            
             <p className='description'>Good quality yeezy foam runner</p>   
             <p className='description'>Colours:</p>
             <img className='product-image' src='https://si.geilicdn.com/wdseller1472774553-15470000017a8fc9bf080a20e284_1276_956.jpg'></img>

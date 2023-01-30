@@ -12,6 +12,8 @@ class yzyslide extends Component {
             <img className='product-image' src='https://si.geilicdn.com/wdseller1610144534-5b470000017ef719a04a0a22e17f_720_720.jpg'></img>
             <div className="product-text">
             <h1 className='description'>[16] YZY Slides</h1>
+            <h2 className="verified-product">VERIFIED</h2>
+
             <h2 className='price'>$40</h2>
             <p className='description'>Good quality yeezy slides</p>   
             <p className='description'>Colours:</p>

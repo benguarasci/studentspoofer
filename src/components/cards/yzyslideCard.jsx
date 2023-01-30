@@ -17,6 +17,7 @@ class yzyslideCard extends Component {
                 src={'https://si.geilicdn.com/wdseller1610144534-5b470000017ef719a04a0a22e17f_720_720.jpg'}
               ></img>
               <h3 className="listing-title">[16] YZY Slides</h3>
+              <p className="verified">VERIFIED</p>
               <p className="listing-attribute">Price: $40</p>
             </a>
         </Grid>

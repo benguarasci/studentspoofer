@@ -17,6 +17,7 @@ class DimeCard extends Component {
                 src={'https://cdn.shoplightspeed.com/shops/636502/files/40034451/image.jpg'}
               ></img>
               <h3 className="listing-title">[18] Dime Jeans</h3>
+              <p className="verified">VERIFIED</p>
               <p className="listing-attribute">Price: $80</p>
             </a>
         </Grid>

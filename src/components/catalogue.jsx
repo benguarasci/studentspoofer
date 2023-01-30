@@ -42,7 +42,6 @@ class catalogue extends Component {
                   <Cards.TeesCard></Cards.TeesCard>
                   <Cards.EECard></Cards.EECard>
                   <Cards.MaisonCard></Cards.MaisonCard>
-                  <Cards.CPLowCard></Cards.CPLowCard>
                   <Cards.yzyslideCard></Cards.yzyslideCard>
                   <Cards.yzyfrCard></Cards.yzyfrCard>
                   <Cards.dimeCard></Cards.dimeCard>

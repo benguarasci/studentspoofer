@@ -14,6 +14,8 @@ class patagonia extends Component {
             <img className='product-image' src='https://www.patagonia.ca/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwb5971a53/images/hi-res/23056_NAT.jpg?sw=350&sh=350&sfrm=png&q=95&bgcolor=f5f5f5'></img>
             <div className="product-text">
             <h1 className='description'>[20] Patagonia Fleece</h1>
+            <h2 className="verified-product">VERIFIED</h2>
+
             <h2 className='price'>$90</h2>
             <p className='description'>Decent quality, true to size</p>   
             <p className='description'>Colors:</p>

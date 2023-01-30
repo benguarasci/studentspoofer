@@ -17,6 +17,7 @@ class birksCard extends Component {
                 src={'https://gw.alicdn.com/bao/uploaded/i1/3027414106/O1CN01phB4pV1gCazqjz8DA_!!3027414106.jpg'}
               ></img>
               <h3 className="listing-title">[19] Birkenstocks</h3>
+              <p className="verified">VERIFIED</p>
               <p className="listing-attribute">Price: $70</p>
             </a>
         </Grid>
