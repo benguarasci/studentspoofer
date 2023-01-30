@@ -9,7 +9,7 @@ class ShoesCard extends Component {
             <Grid xs={12} sm={6} md={4} lg={3}>
             <a
               className="listing-card listing-link"
-              href={'/catalog/shoes'}
+              href={'/catalogue/shoes'}
             >
               <img
                 className="listing-image"
