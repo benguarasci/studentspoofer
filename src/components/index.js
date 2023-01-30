@@ -22,3 +22,8 @@ export { default as Instructions } from "./instructions";
 export { default as Maison } from "./products/maison";
 
 
+export { default as yzyslide } from "./products/yzyslide";
+export { default as yzyfr } from "./products/yzyfr";
+export { default as dime } from "./products/dime";
+export { default as birks } from "./products/birks";
+export { default as patagonia } from "./products/patagonia";

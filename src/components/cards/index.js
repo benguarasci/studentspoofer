@@ -16,6 +16,11 @@ export { default as NB99XCard } from "./NB99XCard";
 export { default as TeesCard } from "./teesCard";
 export { default as CPLowCard } from "./CPLowCard";
 export { default as MaisonCard } from "./maisonCard";
+export { default as yzyslideCard } from "./yzyslideCard";
+export { default as yzyfrCard } from "./yzyfrCard";
+export { default as dimeCard } from "./dimeCard";
+export { default as birksCard } from "./birksCard";
+export { default as patagoniaCard } from "./patagoniaCard";
 
 
 

@@ -41,13 +41,11 @@ function App() {
           <Route path="/catalogue/tees" exact component={() => <Page.Tees />} />
           <Route path="/catalogue/cplow" exact component={() => <Page.CPLow />} />
           <Route path="/catalogue/maison" exact component={() => <Page.Maison />} />
-
-          
-
-
-
-
-
+          <Route path="/catalogue/yzyslide" exact component={() => <Page.yzyslide />} />
+          <Route path="/catalogue/yzyfr" exact component={() => <Page.yzyfr />} />
+          <Route path="/catalogue/dime" exact component={() => <Page.dime />} />
+          <Route path="/catalogue/birks" exact component={() => <Page.birks />} />
+          <Route path="/catalogue/patagonia" exact component={() => <Page.patagonia />} />
       </Router>
     </div>
   );
