@@ -1,5 +1,5 @@
 export { default as Home } from "./home";
-export { default as Catalog } from "./catalog";
+export { default as catalogue } from "./catalogue";
 export { default as ProductCard } from "./cards/dunkCard";
 export { default as Dunks } from "./products/dunks";
 export { default as Goose } from "./products/goose";
@@ -19,4 +19,6 @@ export { default as NB99X } from "./products/NB99X";
 export { default as Tees } from "./products/tees";
 export { default as CPLow } from "./products/CPLow";
 export { default as Instructions } from "./instructions";
+export { default as Maison } from "./products/maison";
+
 

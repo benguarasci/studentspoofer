@@ -9,7 +9,7 @@ import NB550 from './products/NB550';
 import TeesCard from './cards/teesCard';
 
 
-class Catalog extends Component {
+class catalogue extends Component {
 
     render() {
         return (
@@ -41,6 +41,7 @@ class Catalog extends Component {
                   <Cards.NB99XCard></Cards.NB99XCard>
                   <Cards.TeesCard></Cards.TeesCard>
                   <Cards.EECard></Cards.EECard>
+                  <Cards.MaisonCard></Cards.MaisonCard>
 
               </Grid>
             </Box>
@@ -49,4 +50,4 @@ class Catalog extends Component {
     }
 }
 
-export default Catalog;
+export default catalogue;

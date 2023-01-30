@@ -15,7 +15,7 @@ class Home extends Component {
             <p>Complete the form above to make an order. Paste the ID number or the link with your prefered size and colour into the designated area.</p>
             </div>
             <div className='feedback-div'>
-            <a   href='/catalog'>Catalogue</a>
+            <a   href='/catalogue'>catalogue</a>
             </div>
             </header>
         );

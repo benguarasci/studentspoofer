@@ -41,7 +41,7 @@ class Tees extends Component {
             <img className='product-image' src='https://cdn.shopify.com/s/files/1/0235/0370/0064/products/image_885774da-6484-4e4b-99f6-a04b3bc2ee44.jpg?v=1668795915'></img>
             <p className='title'>[1308] | Gallery Dept Porsche</p>
 
-            <img className='product-image' src='https://www.rhcph.dk/media/catalog/product/s/_/s_s_kogancult_crystal_t_shirt_i02963302xx02xx.jpg'></img>
+            <img className='product-image' src='https://www.rhcph.dk/media/catalogue/product/s/_/s_s_kogancult_crystal_t_shirt_i02963302xx02xx.jpg'></img>
             <p className='title'>[1309] | Carhartt KOGANKULT Crystal</p>
             </div>
             </div>

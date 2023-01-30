@@ -10,8 +10,8 @@ class Header extends Component {
         <Box className="App-header">
             <br></br>
             <br></br>
-            <a className="desktop-header" href="/catalog">F&G REPS</a>
-            <a className="mobile-header" href="/catalog">F&G REPS</a>
+            <a className="desktop-header" href="/catalogue">F&G REPS</a>
+            <a className="mobile-header" href="/catalogue">F&G REPS</a>
             <a className="download" target="_blank" rel="noopener noreferrer" href='https://docs.google.com/forms/d/e/1FAIpQLSePvn0XeQvHsB3XJAKwr-Clu_pY58pmfYxjQq4EPWhkGDolnA/viewform?pli=1' >Order Form</a>
             {/* <a className="download" href='/instructions' >Instructions</a> */}
 

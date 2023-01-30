@@ -15,6 +15,8 @@ export { default as CrocsCard } from "./CrocsCard";
 export { default as NB99XCard } from "./NB99XCard";
 export { default as TeesCard } from "./teesCard";
 export { default as CPLowCard } from "./CPLowCard";
+export { default as MaisonCard } from "./maisonCard";
+
 
 
 

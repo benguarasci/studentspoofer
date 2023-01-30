@@ -10,7 +10,7 @@ class TNFCard extends Component {
             <Grid xs={12} sm={6} md={4} lg={3}>
             <a
               className="listing-card listing-link"
-              href={'/catalog/tnf'}
+              href={'/catalogue/tnf'}
             >
               <img
                 className="listing-image"
