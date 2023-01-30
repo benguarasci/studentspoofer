@@ -21,6 +21,7 @@ function App() {
       <Router>
           <Route path="/" exact component={() => <Page.Home />} />
           <Route path="/catalogue" exact component={() => <Page.catalogue />} />
+          <Route path="/catalog" exact component={() => <Page.catalogue />} />
           <Route path="/instructions" exact component={() => <Page.Instructions />} />
           <Route path="/catalogue/dunks" exact component={() => <Page.Dunks />} />
           <Route path="/catalogue/goose" exact component={() => <Page.Goose />} />
