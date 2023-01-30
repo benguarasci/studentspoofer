@@ -10,7 +10,7 @@ class DunkCard extends Component {
             <Grid xs={12} sm={6} md={4} lg={3}>
             <a
               className="listing-card listing-link"
-              href={'/catalog/dunks'}
+              href={'/catalogue/dunks'}
             >
               <img
                 className="listing-image"

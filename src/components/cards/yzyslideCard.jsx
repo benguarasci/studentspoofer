@@ -1,28 +1,27 @@
-
 import React, { Component } from 'react';
 import { Box, Grid } from "@mui/material";
 import "../base.css";
 
-class NB99XCard extends Component {
+class yzyslideCard extends Component {
 
     render() {
         return (
             <Grid xs={12} sm={6} md={4} lg={3}>
             <a
               className="listing-card listing-link"
-              href={'/catalogue/NB99X'}
+              href={'/catalogue/yzyslide'}
             >
               <img
                 className="listing-image"
                 alt={'product'}
-                src={'https://media.gq.com/photos/5cae87abbbeea90d15ad94e8/4:3/w_2663,h_1997,c_limit/New-Balance-13806.jpg'}
+                src={'https://si.geilicdn.com/wdseller1610144534-5b470000017ef719a04a0a22e17f_720_720.jpg'}
               ></img>
-              <h3 className="listing-title">[12] New Balance 99X Lineup</h3>
-              <p className="listing-attribute">Price: $150</p>
+              <h3 className="listing-title">[16] YZY Slides</h3>
+              <p className="listing-attribute">Price: $40</p>
             </a>
         </Grid>
         );
     }
 }
 
-export default NB99XCard;
+export default yzyslideCard;
