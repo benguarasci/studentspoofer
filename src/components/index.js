@@ -18,3 +18,8 @@ export { default as Crocs } from "./products/Crocs";
 export { default as NB99X } from "./products/NB99X";
 export { default as Tees } from "./products/tees";
 export { default as CPLow } from "./products/CPLow";
+export { default as yzyslide } from "./products/yzyslide";
+export { default as yzyfr } from "./products/yzyfr";
+export { default as dime } from "./products/dime";
+export { default as birks } from "./products/birks";
+export { default as patagonia } from "./products/patagonia";

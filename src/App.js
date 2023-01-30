@@ -29,8 +29,11 @@ function App() {
           <Route path="/catelogue/NB99X" exact component={() => <Page.NB99X />} />
           <Route path="/catelogue/tees" exact component={() => <Page.Tees />} />
           <Route path="/catelogue/cplow" exact component={() => <Page.CPLow />} />
-          
-
+          <Route path="/catelogue/yzyslide" exact component={() => <Page.yzyslide />} />
+          <Route path="/catelogue/yzyfr" exact component={() => <Page.yzyfr />} />
+          <Route path="/catelogue/dime" exact component={() => <Page.dime />} />
+          <Route path="/catelogue/birks" exact component={() => <Page.birks />} />
+          <Route path="/catelogue/patagonia" exact component={() => <Page.patagonia />} />
 
 
 
