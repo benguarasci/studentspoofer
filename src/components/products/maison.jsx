@@ -9,12 +9,12 @@ class Maison extends Component {
             <header className="App-header">
             <Header></Header>
             <div className='product-container'>
-            <img className='product-image' src='https://img.mytheresa.com/1088/1088/66/jpeg/catalogue/product/04/P00364280.jpg'></img>
+            <img className='product-image' src='https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/04/P00364280.jpg'></img>
             <div className="product-text">
             <h1 className='description'>[15] Maison Margiela's</h1>
             {/* <h2 className="verified-product">VERIFIED</h2> */}
 
-            <h2 className='price'>$130</h2>
+            <h2 className='price'>$150</h2>
             <p className='description'>Good quality. True to size</p>   
             <p className='description'>Colors:</p>
             <img className='product-image' src='https://gw.alicdn.com/bao/uploaded/i2/381640124/O1CN01FvCrXX1CmpnDPWuTx_!!381640124.jpg'></img>
