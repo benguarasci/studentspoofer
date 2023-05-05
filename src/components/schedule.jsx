@@ -36,7 +36,7 @@ class Schedule extends Component {
                 <tr>
                   <td>ENGR 004-W01</td>
                   <td>-</td>
-                  <td>**Registered</td>
+                  <td>**Registered**</td>
                   <td>-</td>
                   <td>13559</td>
                   <td>Mon May 15, 2023 - Friday Aug 04, 2023</td>
@@ -63,7 +63,7 @@ class Schedule extends Component {
               </table>
               </div>
 
-            <a className="link">Back to Student services</a>
+            <a className="link" href='https://www.uvic.ca/tools/index.php'>Back to Student services</a>
 
             <h3 className="sub2">Frequent Student Links:</h3>
 

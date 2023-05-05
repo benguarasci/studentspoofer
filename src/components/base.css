@@ -15,7 +15,7 @@
     }
     
     .table-container{
-      width: 50%;
+      width: 100%;
     }
 
     table {
@@ -64,6 +64,7 @@
    .link{
     color: #808080;
     font-size: 14px;
+    text-decoration: none;
    }
 
    .sub1{
