@@ -20,32 +20,7 @@ function App() {
     <div className="App">
       <Router>
           <Route path="/" exact component={() => <Page.Home />} />
-          <Route path="/catalogue" exact component={() => <Page.catalogue />} />
-          <Route path="/catalog" exact component={() => <Page.catalogue />} />
-          <Route path="/instructions" exact component={() => <Page.Instructions />} />
-          <Route path="/catalogue/dunks" exact component={() => <Page.Dunks />} />
-          <Route path="/catalogue/goose" exact component={() => <Page.Goose />} />
-          <Route path="/catalogue/essentials" exact component={() => <Page.Essentials />} />
-          <Route path="/catalogue/EE" exact component={() => <Page.EE />} />
-          <Route path="/catalogue/topstoney" exact component={() => <Page.Topstoney />} />
-          <Route path="/catalogue/commonprojects" exact component={() => <Page.CommonProjects />} />
-          <Route path="/catalogue/shoes" exact component={() => <Page.Shoes />} />
-          <Route path="/catalogue/clothes" exact component={() => <Page.Clothes />} />
-          <Route path="/catalogue/moncler" exact component={() => <Page.Moncler />} />
-          <Route path="/catalogue/goyard" exact component={() => <Page.Goyard />} />
-          <Route path="/catalogue/tnf" exact component={() => <Page.TNF />} />
-          <Route path="/catalogue/NB550" exact component={() => <Page.NB550 />} />
-          <Route path="/catalogue/AF1" exact component={() => <Page.AF1 />} />
-          <Route path="/catalogue/crocs" exact component={() => <Page.Crocs />} />
-          <Route path="/catalogue/NB99X" exact component={() => <Page.NB99X />} />
-          <Route path="/catalogue/tees" exact component={() => <Page.Tees />} />
-          <Route path="/catalogue/cplow" exact component={() => <Page.CPLow />} />
-          <Route path="/catalogue/maison" exact component={() => <Page.Maison />} />
-          <Route path="/catalogue/yzyslide" exact component={() => <Page.yzyslide />} />
-          <Route path="/catalogue/yzyfr" exact component={() => <Page.yzyfr />} />
-          <Route path="/catalogue/dime" exact component={() => <Page.dime />} />
-          <Route path="/catalogue/birks" exact component={() => <Page.birks />} />
-          <Route path="/catalogue/patagonia" exact component={() => <Page.patagonia />} />
+          <Route path="/schedule" exact component={() => <Page.Schedule />} />
       </Router>
     </div>
   );
