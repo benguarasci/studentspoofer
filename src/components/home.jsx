@@ -10,10 +10,6 @@ class Home extends Component {
         
             <header className="App-header">
             <Header></Header>
-            <div className="about-text">
-            <p className='title'>Disclaimer!! Everythings from china so there are no returns.</p>
-            <p>Complete the form above to make an order. Paste the ID number or the link with your prefered size and colour into the designated area.</p>
-            </div>
             <div className='feedback-div'>
             <a   href='/schedule'>schedule</a>
             </div>

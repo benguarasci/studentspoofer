@@ -10,8 +10,8 @@ class Header extends Component {
         <Box className="App-header">
             <br></br>
             <br></br>
-            <a className="desktop-header" href="/catalogue">Student Spoofer</a>
-            <a className="mobile-header" href="/catalogue">Student Spoofer</a>
+            <a className="desktop-header" href="/catalogue">studentspoofer</a>
+            <a className="mobile-header" href="/catalogue">studentspoofer</a>
             {/* <a className="download" href='/instructions' >Instructions</a> */}
 
             <br></br>

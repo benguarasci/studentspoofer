@@ -2,7 +2,6 @@
     .App-body {
 
       background-color: white;
-      overflow: hidden;
       position: relative;
       /* min-height: 100vh; */
       /* display: flex; */
@@ -20,6 +19,7 @@
     }
 
     table {
+      display: block;
       font-family: arial, sans-serif;
       border-collapse: collapse;
       max-width: 100%;

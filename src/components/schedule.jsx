@@ -9,13 +9,16 @@ class Schedule extends Component {
     render() {
         return (
         <Box className="App">
-          <div className="nav"></div>
+          <div className="nav">
+
+          </div>
             <Box className="App-body">
+            <p>Benjamin Thomas Guarasci</p>
               
               <h1 className="schedule-header">My Courses</h1>
               <form action="/action_page.php">
                 <select className="term-select">
-                  <option>Current Term</option>
+                  <option>Current Term: May 2023</option>
                 </select>
               </form>
               <h2 className="sub1"> Courses I'm Enrolled in</h2>
@@ -31,34 +34,31 @@ class Schedule extends Component {
                   <th>Credit Hours</th>
                 </tr>
                 <tr>
-                  <td>Alfreds Futterkiste</td>
-                  <td>Maria Anders</td>
-                  <td>Germany</td>
+                  <td>ENGR 004-W01</td>
+                  <td>-</td>
+                  <td>**Registered</td>
+                  <td>-</td>
+                  <td>13559</td>
+                  <td>Mon May 15, 2023 - Friday Aug 04, 2023</td>
+                  <td>1.5</td>
                 </tr>
                 <tr>
-                  <td>Centro comercial Moctezuma</td>
-                  <td>Francisco Chang</td>
-                  <td>Mexico</td>
+                  <td>SENG 360 - A02 Lecture</td>
+                  <td>Mon, Wed, Thu :1530 - 1620</td>
+                  <td>**Web Registered**</td>
+                  <td>Paula Fierra</td>
+                  <td>13141</td>
+                  <td>Mon May 15, 2023 - Thu Aug 03, 2023</td>
+                  <td>1.5</td>
                 </tr>
                 <tr>
-                  <td>Ernst Handel</td>
-                  <td>Roland Mendel</td>
-                  <td>Austria</td>
-                </tr>
-                <tr>
-                  <td>Island Trading</td>
-                  <td>Helen Bennett</td>
-                  <td>UK</td>
-                </tr>
-                <tr>
-                  <td>Laughing Bacchus Winecellars</td>
-                  <td>Yoshi Tannamuri</td>
-                  <td>Canada</td>
-                </tr>
-                <tr>
-                  <td>Magazzini Alimentari Riuniti</td>
-                  <td>Giovanni Rovelli</td>
-                  <td>Italy</td>
+                  <td>SENG 360 - A02 Lab</td>
+                  <td>Wed :1230 - 1420</td>
+                  <td>**Web Registered**</td>
+                  <td>-</td>
+                  <td>13144</td>
+                  <td>Mon May 15, 2023 - Thu Aug 03, 2023</td>
+                  <td>0</td>
                 </tr>
               </table>
               </div>
