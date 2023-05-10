@@ -20,6 +20,9 @@ class Schedule extends Component {
               <form action="/action_page.php">
                 <select className="term-select">
                   <option>Current Term: May 2023</option>
+                  <option>Second Term: Jan - Apr 2024</option>
+                  <option>First Term: Sep - Dec 2023</option>
+                  <option>Second Term: Jan - Apr 2023</option>
                 </select>
               </form>
               <h2 className="sub1"> Courses I'm Enrolled in</h2>
