@@ -13,7 +13,8 @@ class Schedule extends Component {
 
           </div>
             <Box className="App-body">
-            <p>Benjamin Thomas Guarasci</p>
+            {/* <p>Benjamin Thomas Guarasci</p> */}
+            <p>Jack Neil Campbell</p>
               
               <h1 className="schedule-header">My Courses</h1>
               <form action="/action_page.php">
@@ -60,6 +61,8 @@ class Schedule extends Component {
                   <td>Mon May 15, 2023 - Thu Aug 03, 2023</td>
                   <td>0</td>
                 </tr>
+                
+                
               </table>
               </div>
 
