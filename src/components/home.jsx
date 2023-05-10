@@ -11,7 +11,13 @@ class Home extends Component {
             <header className="App-header">
             <Header></Header>
             <div className='feedback-div'>
-            <a   href='/schedule'>schedule</a>
+            <a   href='/schedule/ben'>Ben</a>
+            <br></br>
+            <br></br>
+            <br></br>
+            <a   href='/schedule/jack'>Jack</a>
+            {/* <a   href='/schedule'>schedule</a> */}
+
             </div>
             </header>
         );

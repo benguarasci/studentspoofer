@@ -1,10 +1,10 @@
 
 import React, { Component } from 'react';
 import { Box, Grid } from "@mui/material";
-import "./base.css";
-import Header from './header';
+import "../base.css";
+import Header from '../header';
 
-class Schedule extends Component {
+class Ben extends Component {
 
     render() {
         return (
@@ -14,7 +14,7 @@ class Schedule extends Component {
           </div>
             <Box className="App-body">
             <p>Benjamin Thomas Guarasci</p>
-            {/* <p>Jack Neil Campbell</p> */}
+
               
               <h1 className="schedule-header">My Courses</h1>
               <form action="/action_page.php">
@@ -101,4 +101,4 @@ class Schedule extends Component {
     }
 }
 
-export default Schedule;
+export default Ben;
