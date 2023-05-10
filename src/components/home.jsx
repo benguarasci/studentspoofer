@@ -16,6 +16,10 @@ class Home extends Component {
             <br></br>
             <br></br>
             <a   href='/schedule/jack'>Jack</a>
+            <br></br>
+            <br></br>
+            <br></br>
+            <a   href='/schedule/camus'>Camus</a>
             {/* <a   href='/schedule'>schedule</a> */}
 
             </div>

@@ -24,6 +24,7 @@ function App() {
           <Route path="/schedule" exact component={() => <Page.Schedule />} />
           <Route path="/schedule/ben" exact component={() => <Schedule.Ben />} />
           <Route path="/schedule/jack" exact component={() => <Schedule.Jack />} />
+          <Route path="/schedule/camus" exact component={() => <Schedule.Camus />} />
       </Router>
     </div>
   );
