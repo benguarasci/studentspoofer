@@ -25,6 +25,7 @@ function App() {
           <Route path="/schedule/ben" exact component={() => <Schedule.Ben />} />
           <Route path="/schedule/jack" exact component={() => <Schedule.Jack />} />
           <Route path="/schedule/camus" exact component={() => <Schedule.Camus />} />
+          <Route path="/schedule/graham" exact component={() => <Schedule.Graham />} />
       </Router>
     </div>
   );
