@@ -19,10 +19,10 @@ class Ben extends Component {
               <h1 className="schedule-header">My Courses</h1>
               <form action="/action_page.php">
                 <select className="term-select">
-                  <option>Current Term: May 2023</option>
+                  <option>Current Term: Sep 2023</option>
+                  <option>Summer Term: May - Aug 2024</option>
+                  <option>First Term: Sep - Dec 2024</option>
                   <option>Second Term: Jan - Apr 2024</option>
-                  <option>First Term: Sep - Dec 2023</option>
-                  <option>Second Term: Jan - Apr 2023</option>
                 </select>
               </form>
               <h2 className="sub1"> Courses I'm Enrolled in</h2>
@@ -43,7 +43,7 @@ class Ben extends Component {
                   <td>**Registered**</td>
                   <td>-</td>
                   <td>13559</td>
-                  <td>Mon May 15, 2023 - Friday Aug 04, 2023</td>
+                  <td>Mon Sep 05, 2023 - Friday Dec 04, 2023</td>
                   <td>1.5</td>
                 </tr>
                 <tr>
@@ -52,7 +52,7 @@ class Ben extends Component {
                   <td>**Web Registered**</td>
                   <td>Paula Fierra</td>
                   <td>13141</td>
-                  <td>Mon May 15, 2023 - Thu Aug 03, 2023</td>
+                  <td>Mon Sep 05, 2023 - Friday Dec 04, 2023</td>
                   <td>1.5</td>
                 </tr>
                 <tr>
@@ -61,7 +61,7 @@ class Ben extends Component {
                   <td>**Web Registered**</td>
                   <td>-</td>
                   <td>13144</td>
-                  <td>Mon May 15, 2023 - Thu Aug 03, 2023</td>
+                  <td>Mon Sep 05, 2023 - Friday Dec 04, 2023</td>
                   <td>0</td>
                 </tr>
                 
